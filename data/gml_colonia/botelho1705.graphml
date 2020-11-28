@@ -1,0 +1,4100 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key attr.name="weight" attr.type="int" for="edge" id="d0"/>
+<graph edgedefault="directed"><node id="à-vontade"/>
+<node id="ilha"/>
+<node id="maré"/>
+<node id="termo"/>
+<node id="cidade"/>
+<node id="bahia"/>
+<node id="silva"/>
+<node id="oblíqua"/>
+<node id="forma"/>
+<node id="prolongado"/>
+<node id="terra"/>
+<node id="todo"/>
+<node id="cercar"/>
+<node id="netuno"/>
+<node id="tender"/>
+<node id="amor"/>
+<node id="constante"/>
+<node id="lhe"/>
+<node id="dar"/>
+<node id="muito"/>
+<node id="abraço"/>
+<node id="amante"/>
+<node id="botar"/>
+<node id="braço"/>
+<node id="dentro"/>
+<node id="de"/>
+<node id="pretender"/>
+<node id="gozar"/>
+<node id="ser"/>
+<node id="mui"/>
+<node id="belo"/>
+<node id="em"/>
+<node id="assistência"/>
+<node id="tanto"/>
+<node id="a"/>
+<node id="senhorear"/>
+<node id="galantear"/>
+<node id="mar"/>
+<node id="ter"/>
+<node id="apelido"/>
+<node id="prezar"/>
+<node id="seu"/>
+<node id="querido"/>
+<node id="gosto"/>
+<node id="prenda"/>
+<node id="amoroso"/>
+<node id="ficar"/>
+<node id="rosa"/>
+<node id="viver"/>
+<node id="ânsia"/>
+<node id="sucessivo"/>
+<node id="vivo"/>
+<node id="se"/>
+<node id="morto"/>
+<node id="menos"/>
+<node id="conhecer"/>
+<node id="saudade"/>
+<node id="parecer"/>
+<node id="vista"/>
+<node id="fora"/>
+<node id="pouco"/>
+<node id="apetecer"/>
+<node id="olho"/>
+<node id="feio"/>
+<node id="parecido"/>
+<node id="habitar"/>
+<node id="desejado"/>
+<node id="concha"/>
+<node id="tosco"/>
+<node id="crer"/>
+<node id="pérola"/>
+<node id="erguer"/>
+<node id="ela"/>
+<node id="outeiro"/>
+<node id="soberba"/>
+<node id="monte"/>
+<node id="altaneiro"/>
+<node id="vale"/>
+<node id="humilde"/>
+<node id="desprezar"/>
+<node id="presunção"/>
+<node id="mundo"/>
+<node id="estar"/>
+<node id="mostrar"/>
+<node id="querer"/>
+<node id="príncipe"/>
+<node id="subido"/>
+<node id="pé"/>
+<node id="render"/>
+<node id="outro"/>
+<node id="lado"/>
+<node id="vário"/>
+<node id="lenho"/>
+<node id="ver"/>
+<node id="salgado"/>
+<node id="um"/>
+<node id="ir"/>
+<node id="buscar"/>
+<node id="via"/>
+<node id="alegria"/>
+<node id="desigual"/>
+<node id="ordem"/>
+<node id="consistir"/>
+<node id="desordem"/>
+<node id="pobre"/>
+<node id="pescador"/>
+<node id="saveiro"/>
+<node id="canoa"/>
+<node id="ligeiro"/>
+<node id="fazer"/>
+<node id="abalar"/>
+<node id="trabalho"/>
+<node id="marítimo"/>
+<node id="regalar"/>
+<node id="rede"/>
+<node id="estender"/>
+<node id="peixe"/>
+<node id="pequeno"/>
+<node id="prender"/>
+<node id="verdade"/>
+<node id="puro"/>
+<node id="desventura"/>
+<node id="anzol"/>
+<node id="fiado"/>
+<node id="mísero"/>
+<node id="enganado"/>
+<node id="sempre"/>
+<node id="vil"/>
+<node id="isca"/>
+<node id="cobiçoso"/>
+<node id="perder"/>
+<node id="próprio"/>
+<node id="vida"/>
+<node id="guloso"/>
+<node id="aqui"/>
+<node id="regalado"/>
+<node id="tal"/>
+<node id="sustância"/>
+<node id="gostar"/>
+<node id="preparado"/>
+<node id="tempero"/>
+<node id="algum"/>
+<node id="apetite"/>
+<node id="gostoso"/>
+<node id="convite"/>
+<node id="poder"/>
+<node id="dizer"/>
+<node id="graça"/>
+<node id="raro"/>
+<node id="mesmo"/>
+<node id="natureza"/>
+<node id="o"/>
+<node id="temperar"/>
+<node id="não"/>
+<node id="faltar"/>
+<node id="marisco"/>
+<node id="saboroso"/>
+<node id="tirar"/>
+<node id="fastio"/>
+<node id="melindroso"/>
+<node id="polvo"/>
+<node id="radiante"/>
+<node id="lagostim"/>
+<node id="flamante"/>
+<node id="camarão"/>
+<node id="excelente"/>
+<node id="parente"/>
+<node id="retrógrado"/>
+<node id="formar"/>
+<node id="boca"/>
+<node id="festejo"/>
+<node id="ostra"/>
+<node id="alimentar"/>
+<node id="pedra"/>
+<node id="gerar"/>
+<node id="enfim"/>
+<node id="mariscar"/>
+<node id="falar"/>
+<node id="regalo"/>
+<node id="planta"/>
+<node id="reverdecer"/>
+<node id="folha"/>
+<node id="desterrar"/>
+<node id="inverno"/>
+<node id="desfavor"/>
+<node id="esmeralda"/>
+<node id="abril"/>
+<node id="verdor"/>
+<node id="adornar"/>
+<node id="divino"/>
+<node id="flora"/>
+<node id="vestido"/>
+<node id="fruita"/>
+<node id="produzir"/>
+<node id="copioso"/>
+<node id="tão"/>
+<node id="deleitoso"/>
+<node id="que"/>
+<node id="junto"/>
+<node id="sítio"/>
+<node id="posto"/>
+<node id="lhes"/>
+<node id="sal"/>
+<node id="cana"/>
+<node id="breve"/>
+<node id="discurso"/>
+<node id="reduzir"/>
+<node id="crescer"/>
+<node id="doze"/>
+<node id="mês"/>
+<node id="sazonar"/>
+<node id="fruto"/>
+<node id="desejar"/>
+<node id="velho"/>
+<node id="fértil"/>
+<node id="laranja"/>
+<node id="azedar"/>
+<node id="antes"/>
+<node id="encerrar"/>
+<node id="doce"/>
+<node id="pomo"/>
+<node id="clarificar"/>
+<node id="gomo"/>
+<node id="portugal"/>
+<node id="alameda"/>
+<node id="premir"/>
+<node id="limão"/>
+<node id="azedo"/>
+<node id="chamar"/>
+<node id="china"/>
+<node id="grande"/>
+<node id="sabor"/>
+<node id="afinar"/>
+<node id="mais"/>
+<node id="europa"/>
+<node id="melhor"/>
+<node id="maior"/>
+<node id="maioria"/>
+<node id="valia"/>
+<node id="ah"/>
+<node id="holanda"/>
+<node id="nenhum"/>
+<node id="província"/>
+<node id="trocar"/>
+<node id="cidra"/>
+<node id="amarelo"/>
+<node id="cair"/>
+<node id="inchado"/>
+<node id="presumido"/>
+<node id="bem"/>
+<node id="chão"/>
+<node id="caído"/>
+<node id="uva"/>
+<node id="moscatel"/>
+<node id="mimoso"/>
+<node id="lisboa"/>
+<node id="vira"/>
+<node id="imaginar"/>
+<node id="alguém"/>
+<node id="pomar"/>
+<node id="furtar"/>
+<node id="produção"/>
+<node id="milagroso"/>
+<node id="ano"/>
+<node id="dois"/>
+<node id="vez"/>
+<node id="parto"/>
+<node id="melão"/>
+<node id="celebrar"/>
+<node id="docemente"/>
+<node id="cada"/>
+<node id="alentar"/>
+<node id="açúcar"/>
+<node id="pimenta"/>
+<node id="saber"/>
+<node id="mil"/>
+<node id="agrado"/>
+<node id="letrado"/>
+<node id="ofuscar"/>
+<node id="abonar"/>
+<node id="delícia"/>
+<node id="melancia"/>
+<node id="igual"/>
+<node id="bondade"/>
+<node id="qualidade"/>
+<node id="nos"/>
+<node id="recrear"/>
+<node id="colmeia"/>
+<node id="rosto"/>
+<node id="insulso"/>
+<node id="abóbora"/>
+<node id="figo"/>
+<node id="solicitar"/>
+<node id="pássaro"/>
+<node id="amigo"/>
+<node id="apetitoso"/>
+<node id="sua"/>
+<node id="usura"/>
+<node id="apetitar"/>
+<node id="doçura"/>
+<node id="acaso"/>
+<node id="matar"/>
+<node id="maltratar"/>
+<node id="mariposa"/>
+<node id="embeber"/>
+<node id="chama"/>
+<node id="alegre"/>
+<node id="romã"/>
+<node id="rubicundo"/>
+<node id="aberto"/>
+<node id="agrar"/>
+<node id="língua"/>
+<node id="oferta"/>
+<node id="tesourar"/>
+<node id="afago"/>
+<node id="rubi"/>
+<node id="suave"/>
+<node id="bago"/>
+<node id="quase"/>
+<node id="nomear"/>
+<node id="brasil"/>
+<node id="trasladado"/>
+<node id="façanha"/>
+<node id="além"/>
+<node id="estranho"/>
+<node id="tratar"/>
+<node id="coqueiro"/>
+<node id="galhardo"/>
+<node id="frondoso"/>
+<node id="criar"/>
+<node id="coco"/>
+<node id="andar"/>
+<node id="liberal"/>
+<node id="grandeza"/>
+<node id="só"/>
+<node id="bebida"/>
+<node id="sustentar"/>
+<node id="néctar"/>
+<node id="cândido"/>
+<node id="alimento"/>
+<node id="cor"/>
+<node id="caju"/>
+<node id="vermelho"/>
+<node id="vários"/>
+<node id="também"/>
+<node id="castanha"/>
+<node id="frança"/>
+<node id="itália"/>
+<node id="espanha"/>
+<node id="pitanga"/>
+<node id="fecundo"/>
+<node id="picante"/>
+<node id="comparar"/>
+<node id="américa"/>
+<node id="ginja"/>
+<node id="disfarçado"/>
+<node id="pitomba"/>
+<node id="dourado"/>
+<node id="cereja"/>
+<node id="primor"/>
+<node id="inteiro"/>
+<node id="levar"/>
+<node id="cheiro"/>
+<node id="pêra"/>
+<node id="engrandecido"/>
+<node id="casto"/>
+<node id="marmelada"/>
+<node id="banana"/>
+<node id="conhecido"/>
+<node id="mantimento"/>
+<node id="céu"/>
+<node id="passatempo"/>
+<node id="conceder"/>
+<node id="tempo"/>
+<node id="competir"/>
+<node id="maçã"/>
+<node id="verdear"/>
+<node id="servir"/>
+<node id="pão"/>
+<node id="morador"/>
+<node id="farinha"/>
+<node id="favor"/>
+<node id="condutar"/>
+<node id="sustento"/>
+<node id="fossar"/>
+<node id="sorte"/>
+<node id="tributo"/>
+<node id="conduto"/>
+<node id="elegante"/>
+<node id="tanta"/>
+<node id="diverso"/>
+<node id="acomodado"/>
+<node id="fresco"/>
+<node id="sadio"/>
+<node id="mamão"/>
+<node id="freqüente"/>
+<node id="vulgarmente"/>
+<node id="vulgar"/>
+<node id="frio"/>
+<node id="merecer"/>
+<node id="nome"/>
+<node id="brio"/>
+<node id="pevide"/>
+<node id="rosado"/>
+<node id="cordial"/>
+<node id="mole"/>
+<node id="manjar"/>
+<node id="engolir"/>
+<node id="ananás"/>
+<node id="rei"/>
+<node id="capaz"/>
+<node id="vestir"/>
+<node id="escarlata"/>
+<node id="majestade"/>
+<node id="grato"/>
+<node id="império"/>
+<node id="gravidade"/>
+<node id="lograr"/>
+<node id="verde"/>
+<node id="levantado"/>
+<node id="espinho"/>
+<node id="adornado"/>
+<node id="rainha"/>
+<node id="haver"/>
+<node id="espinha"/>
+<node id="gente"/>
+<node id="pêssego"/>
+<node id="gracioso"/>
+<node id="cheiroso"/>
+<node id="mangar"/>
+<node id="mimosa"/>
+<node id="salpicado"/>
+<node id="tingir"/>
+<node id="famoso"/>
+<node id="almíscar"/>
+<node id="oloroso"/>
+<node id="mato"/>
+<node id="cultura"/>
+<node id="duro"/>
+<node id="trato"/>
+<node id="si"/>
+<node id="apurar"/>
+<node id="dever"/>
+<node id="homem"/>
+<node id="oh"/>
+<node id="soberano"/>
+<node id="indústria"/>
+<node id="humano"/>
+<node id="ambrósia"/>
+<node id="pôr"/>
+<node id="semelhança"/>
+<node id="alcançar"/>
+<node id="inculto"/>
+<node id="indulto"/>
+<node id="mel"/>
+<node id="injusto"/>
+<node id="agravo"/>
+<node id="desfazer"/>
+<node id="favo"/>
+<node id="bastar"/>
+<node id="descrever"/>
+<node id="vária"/>
+<node id="legume"/>
+<node id="plantar"/>
+<node id="duplicado"/>
+<node id="branco"/>
+<node id="abundância"/>
+<node id="espelho"/>
+<node id="inhame"/>
+<node id="mentir"/>
+<node id="fome"/>
+<node id="faminto"/>
+<node id="batata"/>
+<node id="assar"/>
+<node id="cozer"/>
+<node id="rico"/>
+<node id="batatada"/>
+<node id="nação"/>
+<node id="solicitado"/>
+<node id="cará"/>
+<node id="roxo"/>
+<node id="alvo"/>
+<node id="honesto"/>
+<node id="cobrir"/>
+<node id="modesto"/>
+<node id="mandioca"/>
+<node id="tomé"/>
+<node id="sagrado"/>
+<node id="gentio"/>
+<node id="amado"/>
+<node id="raiz"/>
+<node id="oculto"/>
+<node id="feliz"/>
+<node id="dificultar"/>
+<node id="abraçar"/>
+<node id="atividade"/>
+<node id="fácil"/>
+<node id="brevidade"/>
+<node id="dia"/>
+<node id="arrancar"/>
+<node id="cuidar"/>
+<node id="beiju"/>
+<node id="tenro"/>
+<node id="curioso"/>
+<node id="trigo"/>
+<node id="aipim"/>
+<node id="aparentar"/>
+<node id="coar"/>
+<node id="qualquer"/>
+<node id="cozido"/>
+<node id="assado"/>
+<node id="castanho"/>
+<node id="milho"/>
+<node id="fadiga"/>
+<node id="espiga"/>
+<node id="filho"/>
+<node id="mão"/>
+<node id="arroz"/>
+<node id="semeado"/>
+<node id="multiplicado"/>
+<node id="calar"/>
+<node id="valença"/>
+<node id="tributar"/>
+<node id="orientar"/>
+<node id="comer"/>
+<node id="lísia"/>
+<node id="substância"/>
+<node id="crescido"/>
+<node id="explicar"/>
+<node id="ciumar"/>
+<node id="recopilar"/>
+<node id="conter"/>
+<node id="invejar"/>
+<node id="preferir"/>
+<node id="perfazer"/>
+<node id="quatro"/>
+<node id="primeiro"/>
+<node id="arvoredo"/>
+<node id="ledo"/>
+<node id="segundo"/>
+<node id="ar"/>
+<node id="agradável"/>
+<node id="seguro"/>
+<node id="terceiro"/>
+<node id="água"/>
+<node id="refrescar"/>
+<node id="peito"/>
+<node id="singular"/>
+<node id="aguar"/>
+<node id="vistoso"/>
+<node id="engenho"/>
+<node id="fado"/>
+<node id="antigamente"/>
+<node id="pérfido"/>
+<node id="nocivo"/>
+<node id="queimar"/>
+<node id="renascer"/>
+<node id="fênix"/>
+<node id="fabricar"/>
+<node id="três"/>
+<node id="capela"/>
+<node id="esmerar"/>
+<node id="fortaleza"/>
+<node id="abóbada"/>
+<node id="forte"/>
+<node id="levantar"/>
+<node id="senhor"/>
+<node id="neve"/>
+<node id="apelidar"/>
+<node id="renovar"/>
+<node id="piedade"/>
+<node id="esclarecido"/>
+<node id="devoto"/>
+<node id="sonho"/>
+<node id="nevado"/>
+<node id="candor"/>
+<node id="agosto"/>
+<node id="ilustre"/>
+<node id="dedicar"/>
+<node id="pároco"/>
+<node id="entender"/>
+<node id="edifício"/>
+<node id="agradecer"/>
+<node id="xavier"/>
+<node id="sacro"/>
+<node id="glória"/>
+<node id="igreja"/>
+<node id="japão"/>
+<node id="portento"/>
+<node id="reconhecer"/>
+<node id="engrandecer"/>
+<node id="conceição"/>
+<node id="virgem"/>
+<node id="imaculado"/>
+<node id="mancha"/>
+<node id="lua"/>
+<node id="tudo"/>
+<node id="quanto"/>
+<node id="apodo"/>
+<node id="achar"/>
+<node id="chipre"/>
+<node id="maria"/>
+<node id="verdadeiro"/>
+<node id="vênus"/>
+<node id="padroeiro"/>
+<edge source="à-vontade" target="ilha">
+  <data key="d0">1</data>
+</edge>
+<edge source="ilha" target="maré">
+  <data key="d0">2</data>
+</edge>
+<edge source="ilha" target="estar">
+  <data key="d0">1</data>
+</edge>
+<edge source="maré" target="termo">
+  <data key="d0">1</data>
+</edge>
+<edge source="maré" target="todo">
+  <data key="d0">1</data>
+</edge>
+<edge source="maré" target="ter">
+  <data key="d0">1</data>
+</edge>
+<edge source="maré" target="rosa">
+  <data key="d0">1</data>
+</edge>
+<edge source="maré" target="vivo">
+  <data key="d0">1</data>
+</edge>
+<edge source="maré" target="saudade">
+  <data key="d0">1</data>
+</edge>
+<edge source="maré" target="alegria">
+  <data key="d0">1</data>
+</edge>
+<edge source="termo" target="cidade">
+  <data key="d0">1</data>
+</edge>
+<edge source="termo" target="bahia">
+  <data key="d0">1</data>
+</edge>
+<edge source="cidade" target="bahia">
+  <data key="d0">1</data>
+</edge>
+<edge source="cidade" target="via">
+  <data key="d0">1</data>
+</edge>
+<edge source="bahia" target="silva">
+  <data key="d0">1</data>
+</edge>
+<edge source="bahia" target="a">
+  <data key="d0">1</data>
+</edge>
+<edge source="bahia" target="ter">
+  <data key="d0">1</data>
+</edge>
+<edge source="silva" target="oblíqua">
+  <data key="d0">1</data>
+</edge>
+<edge source="oblíqua" target="forma">
+  <data key="d0">1</data>
+</edge>
+<edge source="forma" target="prolongado">
+  <data key="d0">1</data>
+</edge>
+<edge source="prolongado" target="terra">
+  <data key="d0">1</data>
+</edge>
+<edge source="terra" target="maré">
+  <data key="d0">1</data>
+</edge>
+<edge source="terra" target="pouco">
+  <data key="d0">1</data>
+</edge>
+<edge source="terra" target="abonar">
+  <data key="d0">1</data>
+</edge>
+<edge source="terra" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="terra" target="crer">
+  <data key="d0">1</data>
+</edge>
+<edge source="terra" target="amoroso">
+  <data key="d0">1</data>
+</edge>
+<edge source="terra" target="si">
+  <data key="d0">1</data>
+</edge>
+<edge source="todo" target="cercar">
+  <data key="d0">1</data>
+</edge>
+<edge source="todo" target="azedo">
+  <data key="d0">1</data>
+</edge>
+<edge source="todo" target="ofuscar">
+  <data key="d0">1</data>
+</edge>
+<edge source="todo" target="nomear">
+  <data key="d0">1</data>
+</edge>
+<edge source="todo" target="tempo">
+  <data key="d0">1</data>
+</edge>
+<edge source="todo" target="tempero">
+  <data key="d0">1</data>
+</edge>
+<edge source="todo" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="todo" target="gente">
+  <data key="d0">1</data>
+</edge>
+<edge source="todo" target="bondade">
+  <data key="d0">1</data>
+</edge>
+<edge source="todo" target="ano">
+  <data key="d0">1</data>
+</edge>
+<edge source="todo" target="terra">
+  <data key="d0">1</data>
+</edge>
+<edge source="todo" target="todo">
+  <data key="d0">1</data>
+</edge>
+<edge source="todo" target="brasil">
+  <data key="d0">1</data>
+</edge>
+<edge source="cercar" target="netuno">
+  <data key="d0">1</data>
+</edge>
+<edge source="netuno" target="tender">
+  <data key="d0">1</data>
+</edge>
+<edge source="tender" target="amor">
+  <data key="d0">1</data>
+</edge>
+<edge source="amor" target="constante">
+  <data key="d0">1</data>
+</edge>
+<edge source="amor" target="seu">
+  <data key="d0">1</data>
+</edge>
+<edge source="amor" target="maré">
+  <data key="d0">1</data>
+</edge>
+<edge source="constante" target="lhe">
+  <data key="d0">1</data>
+</edge>
+<edge source="lhe" target="dar">
+  <data key="d0">2</data>
+</edge>
+<edge source="lhe" target="parecer">
+  <data key="d0">1</data>
+</edge>
+<edge source="lhe" target="sazonar">
+  <data key="d0">1</data>
+</edge>
+<edge source="lhe" target="levar">
+  <data key="d0">1</data>
+</edge>
+<edge source="dar" target="muito">
+  <data key="d0">1</data>
+</edge>
+<edge source="dar" target="salgado">
+  <data key="d0">1</data>
+</edge>
+<edge source="dar" target="ano">
+  <data key="d0">1</data>
+</edge>
+<edge source="dar" target="rosto">
+  <data key="d0">1</data>
+</edge>
+<edge source="dar" target="grandeza">
+  <data key="d0">1</data>
+</edge>
+<edge source="dar" target="sustento">
+  <data key="d0">1</data>
+</edge>
+<edge source="dar" target="gentio">
+  <data key="d0">1</data>
+</edge>
+<edge source="dar" target="fácil">
+  <data key="d0">1</data>
+</edge>
+<edge source="dar" target="portugal">
+  <data key="d0">1</data>
+</edge>
+<edge source="muito" target="abraço">
+  <data key="d0">1</data>
+</edge>
+<edge source="muito" target="belo">
+  <data key="d0">1</data>
+</edge>
+<edge source="muito" target="desejado">
+  <data key="d0">1</data>
+</edge>
+<edge source="muito" target="doze">
+  <data key="d0">1</data>
+</edge>
+<edge source="muito" target="se">
+  <data key="d0">2</data>
+</edge>
+<edge source="muito" target="fresco">
+  <data key="d0">1</data>
+</edge>
+<edge source="muito" target="vulgar">
+  <data key="d0">1</data>
+</edge>
+<edge source="muito" target="mais">
+  <data key="d0">1</data>
+</edge>
+<edge source="muito" target="apetecer">
+  <data key="d0">1</data>
+</edge>
+<edge source="muito" target="ciumar">
+  <data key="d0">1</data>
+</edge>
+<edge source="abraço" target="amante">
+  <data key="d0">1</data>
+</edge>
+<edge source="amante" target="botar">
+  <data key="d0">1</data>
+</edge>
+<edge source="botar" target="braço">
+  <data key="d0">1</data>
+</edge>
+<edge source="braço" target="dentro">
+  <data key="d0">1</data>
+</edge>
+<edge source="dentro" target="de">
+  <data key="d0">1</data>
+</edge>
+<edge source="dentro" target="habitar">
+  <data key="d0">1</data>
+</edge>
+<edge source="dentro" target="crer">
+  <data key="d0">1</data>
+</edge>
+<edge source="dentro" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="de" target="pretender">
+  <data key="d0">1</data>
+</edge>
+<edge source="de" target="se">
+  <data key="d0">4</data>
+</edge>
+<edge source="de" target="adornar">
+  <data key="d0">1</data>
+</edge>
+<edge source="de" target="produção">
+  <data key="d0">1</data>
+</edge>
+<edge source="de" target="terra">
+  <data key="d0">1</data>
+</edge>
+<edge source="pretender" target="gozar">
+  <data key="d0">1</data>
+</edge>
+<edge source="gozar" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="gozar" target="nenhum">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="mui">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="amor">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="pouco">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="parecido">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="muito">
+  <data key="d0">6</data>
+</edge>
+<edge source="ser" target="concha">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="príncipe">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="pequeno">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="desventura">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="lagostim">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="gerar">
+  <data key="d0">2</data>
+</edge>
+<edge source="ser" target="vário">
+  <data key="d0">2</data>
+</edge>
+<edge source="ser" target="tão">
+  <data key="d0">3</data>
+</edge>
+<edge source="ser" target="posto">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="velho">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="laranja">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="antes">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="premir">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="ter">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="inchado">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="bem">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="fazer">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="letrado">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="tal">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="cada">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="língua">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="tesourar">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="rubi">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="brasil">
+  <data key="d0">2</data>
+</edge>
+<edge source="ser" target="caju">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="vermelho">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="melhor">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="cor">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="américa">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="gosto">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="condutar">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="fruto">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="pão">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="tanta">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="fecundo">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="belo">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="mole">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="capaz">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="abundância">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="legume">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="alvo">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="feliz">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="assado">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="mão">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="mais">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="sadio">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="mundo">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="quatro">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="engenho">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="termo">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="breve">
+  <data key="d0">1</data>
+</edge>
+<edge source="mui" target="belo">
+  <data key="d0">1</data>
+</edge>
+<edge source="mui" target="ledo">
+  <data key="d0">1</data>
+</edge>
+<edge source="mui" target="vistoso">
+  <data key="d0">1</data>
+</edge>
+<edge source="belo" target="em">
+  <data key="d0">1</data>
+</edge>
+<edge source="belo" target="muito">
+  <data key="d0">1</data>
+</edge>
+<edge source="belo" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="belo" target="um">
+  <data key="d0">1</data>
+</edge>
+<edge source="belo" target="banana">
+  <data key="d0">1</data>
+</edge>
+<edge source="belo" target="cordial">
+  <data key="d0">1</data>
+</edge>
+<edge source="belo" target="semelhança">
+  <data key="d0">1</data>
+</edge>
+<edge source="belo" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="em" target="assistência">
+  <data key="d0">1</data>
+</edge>
+<edge source="em" target="pomo">
+  <data key="d0">1</data>
+</edge>
+<edge source="em" target="maioria">
+  <data key="d0">1</data>
+</edge>
+<edge source="em" target="ilha">
+  <data key="d0">1</data>
+</edge>
+<edge source="assistência" target="tanto">
+  <data key="d0">1</data>
+</edge>
+<edge source="tanto" target="a">
+  <data key="d0">2</data>
+</edge>
+<edge source="tanto" target="abalar">
+  <data key="d0">1</data>
+</edge>
+<edge source="tanto" target="mariscar">
+  <data key="d0">1</data>
+</edge>
+<edge source="tanto" target="sabor">
+  <data key="d0">1</data>
+</edge>
+<edge source="a" target="senhorear">
+  <data key="d0">1</data>
+</edge>
+<edge source="a" target="galantear">
+  <data key="d0">1</data>
+</edge>
+<edge source="a" target="conhecer">
+  <data key="d0">1</data>
+</edge>
+<edge source="a" target="furtar">
+  <data key="d0">1</data>
+</edge>
+<edge source="a" target="desejar">
+  <data key="d0">1</data>
+</edge>
+<edge source="a" target="conceder">
+  <data key="d0">1</data>
+</edge>
+<edge source="a" target="mangar">
+  <data key="d0">2</data>
+</edge>
+<edge source="a" target="pôr">
+  <data key="d0">1</data>
+</edge>
+<edge source="a" target="arvoredo">
+  <data key="d0">1</data>
+</edge>
+<edge source="a" target="ar">
+  <data key="d0">1</data>
+</edge>
+<edge source="a" target="água">
+  <data key="d0">1</data>
+</edge>
+<edge source="a" target="açúcar">
+  <data key="d0">1</data>
+</edge>
+<edge source="a" target="ilustre">
+  <data key="d0">1</data>
+</edge>
+<edge source="senhorear" target="tanto">
+  <data key="d0">1</data>
+</edge>
+<edge source="galantear" target="mar">
+  <data key="d0">1</data>
+</edge>
+<edge source="mar" target="maré">
+  <data key="d0">1</data>
+</edge>
+<edge source="mar" target="salgado">
+  <data key="d0">1</data>
+</edge>
+<edge source="mar" target="sítio">
+  <data key="d0">1</data>
+</edge>
+<edge source="mar" target="sal">
+  <data key="d0">1</data>
+</edge>
+<edge source="ter" target="apelido">
+  <data key="d0">1</data>
+</edge>
+<edge source="ter" target="mísero">
+  <data key="d0">1</data>
+</edge>
+<edge source="ter" target="clarificar">
+  <data key="d0">1</data>
+</edge>
+<edge source="ter" target="sempre">
+  <data key="d0">1</data>
+</edge>
+<edge source="ter" target="mais">
+  <data key="d0">2</data>
+</edge>
+<edge source="ter" target="portugal">
+  <data key="d0">1</data>
+</edge>
+<edge source="ter" target="brasil">
+  <data key="d0">1</data>
+</edge>
+<edge source="ter" target="primor">
+  <data key="d0">1</data>
+</edge>
+<edge source="ter" target="pevide">
+  <data key="d0">1</data>
+</edge>
+<edge source="ter" target="império">
+  <data key="d0">1</data>
+</edge>
+<edge source="ter" target="levantado">
+  <data key="d0">1</data>
+</edge>
+<edge source="ter" target="cheiro">
+  <data key="d0">1</data>
+</edge>
+<edge source="ter" target="indústria">
+  <data key="d0">1</data>
+</edge>
+<edge source="ter" target="descrever">
+  <data key="d0">1</data>
+</edge>
+<edge source="ter" target="raiz">
+  <data key="d0">1</data>
+</edge>
+<edge source="ter" target="qualquer">
+  <data key="d0">1</data>
+</edge>
+<edge source="ter" target="explicar">
+  <data key="d0">1</data>
+</edge>
+<edge source="ter" target="recopilar">
+  <data key="d0">1</data>
+</edge>
+<edge source="ter" target="primeiro">
+  <data key="d0">1</data>
+</edge>
+<edge source="ter" target="segundo">
+  <data key="d0">1</data>
+</edge>
+<edge source="ter" target="terceiro">
+  <data key="d0">1</data>
+</edge>
+<edge source="ter" target="quase">
+  <data key="d0">1</data>
+</edge>
+<edge source="ter" target="maria">
+  <data key="d0">1</data>
+</edge>
+<edge source="apelido" target="prezar">
+  <data key="d0">1</data>
+</edge>
+<edge source="prezar" target="amor">
+  <data key="d0">1</data>
+</edge>
+<edge source="prezar" target="antes">
+  <data key="d0">1</data>
+</edge>
+<edge source="prezar" target="mundo">
+  <data key="d0">1</data>
+</edge>
+<edge source="seu" target="querido">
+  <data key="d0">1</data>
+</edge>
+<edge source="seu" target="pé">
+  <data key="d0">1</data>
+</edge>
+<edge source="seu" target="verdor">
+  <data key="d0">1</data>
+</edge>
+<edge source="seu" target="vestido">
+  <data key="d0">1</data>
+</edge>
+<edge source="seu" target="gomo">
+  <data key="d0">1</data>
+</edge>
+<edge source="seu" target="pomar">
+  <data key="d0">1</data>
+</edge>
+<edge source="seu" target="bago">
+  <data key="d0">1</data>
+</edge>
+<edge source="seu" target="fruto">
+  <data key="d0">1</data>
+</edge>
+<edge source="querido" target="gosto">
+  <data key="d0">1</data>
+</edge>
+<edge source="gosto" target="prenda">
+  <data key="d0">1</data>
+</edge>
+<edge source="gosto" target="cana">
+  <data key="d0">1</data>
+</edge>
+<edge source="gosto" target="de">
+  <data key="d0">1</data>
+</edge>
+<edge source="gosto" target="aqui">
+  <data key="d0">1</data>
+</edge>
+<edge source="gosto" target="picante">
+  <data key="d0">1</data>
+</edge>
+<edge source="gosto" target="melhor">
+  <data key="d0">1</data>
+</edge>
+<edge source="prenda" target="amoroso">
+  <data key="d0">1</data>
+</edge>
+<edge source="amoroso" target="ficar">
+  <data key="d0">1</data>
+</edge>
+<edge source="amoroso" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="ficar" target="maré">
+  <data key="d0">1</data>
+</edge>
+<edge source="ficar" target="vale">
+  <data key="d0">1</data>
+</edge>
+<edge source="rosa" target="viver">
+  <data key="d0">1</data>
+</edge>
+<edge source="rosa" target="ilha">
+  <data key="d0">1</data>
+</edge>
+<edge source="viver" target="ânsia">
+  <data key="d0">1</data>
+</edge>
+<edge source="ânsia" target="sucessivo">
+  <data key="d0">1</data>
+</edge>
+<edge source="sucessivo" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="vivo" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="vivo" target="aqui">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="morto">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="ver">
+  <data key="d0">4</data>
+</edge>
+<edge source="se" target="ir">
+  <data key="d0">2</data>
+</edge>
+<edge source="se" target="crer">
+  <data key="d0">2</data>
+</edge>
+<edge source="se" target="poder">
+  <data key="d0">2</data>
+</edge>
+<edge source="se" target="produzir">
+  <data key="d0">3</data>
+</edge>
+<edge source="se" target="reduzir">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="desejar">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="encerrar">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="afinar">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="prezar">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="desprezar">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="holanda">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="trocar">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="lisboa">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="mostrar">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="a">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="criar">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="fossar">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="gerar">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="engolir">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="tirar">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="alcançar">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="desfazer">
+  <data key="d0">2</data>
+</edge>
+<edge source="se" target="não">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="fazer">
+  <data key="d0">3</data>
+</edge>
+<edge source="se" target="querer">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="dificultar">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="abraçar">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="arrancar">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="cozer">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="aparentar">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="plantar">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="fabricar">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="esmerar">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="levantar">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="apelidar">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="reconhecer">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="dedicar">
+  <data key="d0">1</data>
+</edge>
+<edge source="se" target="achar">
+  <data key="d0">1</data>
+</edge>
+<edge source="morto" target="menos">
+  <data key="d0">1</data>
+</edge>
+<edge source="menos" target="a">
+  <data key="d0">1</data>
+</edge>
+<edge source="menos" target="pêra">
+  <data key="d0">1</data>
+</edge>
+<edge source="conhecer" target="maré">
+  <data key="d0">1</data>
+</edge>
+<edge source="saudade" target="lhe">
+  <data key="d0">1</data>
+</edge>
+<edge source="parecer" target="vista">
+  <data key="d0">1</data>
+</edge>
+<edge source="parecer" target="desterrar">
+  <data key="d0">1</data>
+</edge>
+<edge source="parecer" target="milagroso">
+  <data key="d0">1</data>
+</edge>
+<edge source="parecer" target="mariposa">
+  <data key="d0">1</data>
+</edge>
+<edge source="parecer" target="dentro">
+  <data key="d0">1</data>
+</edge>
+<edge source="parecer" target="que">
+  <data key="d0">1</data>
+</edge>
+<edge source="vista" target="fora">
+  <data key="d0">1</data>
+</edge>
+<edge source="vista" target="agrar">
+  <data key="d0">1</data>
+</edge>
+<edge source="fora" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="pouco" target="apetecer">
+  <data key="d0">1</data>
+</edge>
+<edge source="pouco" target="azedar">
+  <data key="d0">1</data>
+</edge>
+<edge source="apetecer" target="olho">
+  <data key="d0">1</data>
+</edge>
+<edge source="apetecer" target="fazer">
+  <data key="d0">1</data>
+</edge>
+<edge source="apetecer" target="céu">
+  <data key="d0">1</data>
+</edge>
+<edge source="apetecer" target="de">
+  <data key="d0">1</data>
+</edge>
+<edge source="olho" target="feio">
+  <data key="d0">1</data>
+</edge>
+<edge source="olho" target="sempre">
+  <data key="d0">1</data>
+</edge>
+<edge source="feio" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="parecido" target="dentro">
+  <data key="d0">1</data>
+</edge>
+<edge source="parecido" target="vário">
+  <data key="d0">1</data>
+</edge>
+<edge source="habitar" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="desejado" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="concha" target="tosco">
+  <data key="d0">1</data>
+</edge>
+<edge source="tosco" target="dentro">
+  <data key="d0">1</data>
+</edge>
+<edge source="crer" target="pérola">
+  <data key="d0">1</data>
+</edge>
+<edge source="crer" target="peixe">
+  <data key="d0">1</data>
+</edge>
+<edge source="crer" target="apetitar">
+  <data key="d0">1</data>
+</edge>
+<edge source="crer" target="mamão">
+  <data key="d0">1</data>
+</edge>
+<edge source="crer" target="vulgarmente">
+  <data key="d0">1</data>
+</edge>
+<edge source="crer" target="também">
+  <data key="d0">1</data>
+</edge>
+<edge source="pérola" target="erguer">
+  <data key="d0">1</data>
+</edge>
+<edge source="erguer" target="ela">
+  <data key="d0">1</data>
+</edge>
+<edge source="ela" target="outeiro">
+  <data key="d0">1</data>
+</edge>
+<edge source="ela" target="reverdecer">
+  <data key="d0">1</data>
+</edge>
+<edge source="ela" target="parecido">
+  <data key="d0">1</data>
+</edge>
+<edge source="outeiro" target="soberba">
+  <data key="d0">1</data>
+</edge>
+<edge source="soberba" target="monte">
+  <data key="d0">1</data>
+</edge>
+<edge source="monte" target="altaneiro">
+  <data key="d0">1</data>
+</edge>
+<edge source="altaneiro" target="vale">
+  <data key="d0">1</data>
+</edge>
+<edge source="vale" target="humilde">
+  <data key="d0">1</data>
+</edge>
+<edge source="vale" target="seu">
+  <data key="d0">1</data>
+</edge>
+<edge source="humilde" target="desprezar">
+  <data key="d0">1</data>
+</edge>
+<edge source="desprezar" target="presunção">
+  <data key="d0">1</data>
+</edge>
+<edge source="desprezar" target="ah">
+  <data key="d0">1</data>
+</edge>
+<edge source="desprezar" target="ter">
+  <data key="d0">1</data>
+</edge>
+<edge source="presunção" target="mundo">
+  <data key="d0">1</data>
+</edge>
+<edge source="mundo" target="estar">
+  <data key="d0">1</data>
+</edge>
+<edge source="mundo" target="ser">
+  <data key="d0">2</data>
+</edge>
+<edge source="mundo" target="conhecido">
+  <data key="d0">1</data>
+</edge>
+<edge source="mundo" target="espinha">
+  <data key="d0">1</data>
+</edge>
+<edge source="mundo" target="regalo">
+  <data key="d0">1</data>
+</edge>
+<edge source="estar" target="mostrar">
+  <data key="d0">1</data>
+</edge>
+<edge source="estar" target="pedra">
+  <data key="d0">1</data>
+</edge>
+<edge source="estar" target="belo">
+  <data key="d0">1</data>
+</edge>
+<edge source="estar" target="chão">
+  <data key="d0">1</data>
+</edge>
+<edge source="estar" target="vestido">
+  <data key="d0">1</data>
+</edge>
+<edge source="estar" target="mui">
+  <data key="d0">1</data>
+</edge>
+<edge source="mostrar" target="querer">
+  <data key="d0">1</data>
+</edge>
+<edge source="mostrar" target="vário">
+  <data key="d0">1</data>
+</edge>
+<edge source="mostrar" target="que">
+  <data key="d0">1</data>
+</edge>
+<edge source="querer" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="querer" target="fruto">
+  <data key="d0">1</data>
+</edge>
+<edge source="querer" target="cultura">
+  <data key="d0">1</data>
+</edge>
+<edge source="querer" target="dever">
+  <data key="d0">1</data>
+</edge>
+<edge source="querer" target="cobrir">
+  <data key="d0">1</data>
+</edge>
+<edge source="querer" target="fado">
+  <data key="d0">1</data>
+</edge>
+<edge source="príncipe" target="subido">
+  <data key="d0">1</data>
+</edge>
+<edge source="subido" target="ficar">
+  <data key="d0">1</data>
+</edge>
+<edge source="pé" target="render">
+  <data key="d0">1</data>
+</edge>
+<edge source="pé" target="boca">
+  <data key="d0">1</data>
+</edge>
+<edge source="render" target="outro">
+  <data key="d0">1</data>
+</edge>
+<edge source="outro" target="lado">
+  <data key="d0">1</data>
+</edge>
+<edge source="outro" target="de">
+  <data key="d0">1</data>
+</edge>
+<edge source="outro" target="anzol">
+  <data key="d0">1</data>
+</edge>
+<edge source="outro" target="amarelo">
+  <data key="d0">1</data>
+</edge>
+<edge source="outro" target="bahia">
+  <data key="d0">1</data>
+</edge>
+<edge source="outro" target="fruita">
+  <data key="d0">1</data>
+</edge>
+<edge source="outro" target="filho">
+  <data key="d0">1</data>
+</edge>
+<edge source="outro" target="capela">
+  <data key="d0">2</data>
+</edge>
+<edge source="outro" target="vênus">
+  <data key="d0">1</data>
+</edge>
+<edge source="lado" target="vário">
+  <data key="d0">1</data>
+</edge>
+<edge source="vário" target="lenho">
+  <data key="d0">1</data>
+</edge>
+<edge source="vário" target="peixe">
+  <data key="d0">1</data>
+</edge>
+<edge source="vário" target="regalo">
+  <data key="d0">1</data>
+</edge>
+<edge source="vário" target="cor">
+  <data key="d0">2</data>
+</edge>
+<edge source="vário" target="sabor">
+  <data key="d0">1</data>
+</edge>
+<edge source="vário" target="casto">
+  <data key="d0">1</data>
+</edge>
+<edge source="lenho" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="ver" target="mar">
+  <data key="d0">1</data>
+</edge>
+<edge source="ver" target="ananás">
+  <data key="d0">1</data>
+</edge>
+<edge source="ver" target="multiplicado">
+  <data key="d0">1</data>
+</edge>
+<edge source="ver" target="cozido">
+  <data key="d0">1</data>
+</edge>
+<edge source="ver" target="pôr">
+  <data key="d0">1</data>
+</edge>
+<edge source="ver" target="fabricar">
+  <data key="d0">1</data>
+</edge>
+<edge source="salgado" target="um">
+  <data key="d0">1</data>
+</edge>
+<edge source="salgado" target="mar">
+  <data key="d0">1</data>
+</edge>
+<edge source="um" target="ir">
+  <data key="d0">1</data>
+</edge>
+<edge source="um" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="ir" target="buscar">
+  <data key="d0">1</data>
+</edge>
+<edge source="ir" target="alegria">
+  <data key="d0">1</data>
+</edge>
+<edge source="ir" target="perder">
+  <data key="d0">1</data>
+</edge>
+<edge source="ir" target="almíscar">
+  <data key="d0">1</data>
+</edge>
+<edge source="ir" target="legume">
+  <data key="d0">1</data>
+</edge>
+<edge source="ir" target="sacro">
+  <data key="d0">1</data>
+</edge>
+<edge source="ir" target="singular">
+  <data key="d0">1</data>
+</edge>
+<edge source="buscar" target="cidade">
+  <data key="d0">1</data>
+</edge>
+<edge source="via" target="outro">
+  <data key="d0">1</data>
+</edge>
+<edge source="alegria" target="desigual">
+  <data key="d0">1</data>
+</edge>
+<edge source="alegria" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="desigual" target="ordem">
+  <data key="d0">1</data>
+</edge>
+<edge source="ordem" target="consistir">
+  <data key="d0">1</data>
+</edge>
+<edge source="consistir" target="desordem">
+  <data key="d0">1</data>
+</edge>
+<edge source="desordem" target="pobre">
+  <data key="d0">1</data>
+</edge>
+<edge source="pobre" target="pescador">
+  <data key="d0">1</data>
+</edge>
+<edge source="pobre" target="parente">
+  <data key="d0">1</data>
+</edge>
+<edge source="pescador" target="saveiro">
+  <data key="d0">1</data>
+</edge>
+<edge source="saveiro" target="canoa">
+  <data key="d0">1</data>
+</edge>
+<edge source="canoa" target="ligeiro">
+  <data key="d0">1</data>
+</edge>
+<edge source="ligeiro" target="fazer">
+  <data key="d0">1</data>
+</edge>
+<edge source="fazer" target="tanto">
+  <data key="d0">1</data>
+</edge>
+<edge source="fazer" target="gostoso">
+  <data key="d0">1</data>
+</edge>
+<edge source="fazer" target="divino">
+  <data key="d0">1</data>
+</edge>
+<edge source="fazer" target="açúcar">
+  <data key="d0">1</data>
+</edge>
+<edge source="fazer" target="mel">
+  <data key="d0">1</data>
+</edge>
+<edge source="fazer" target="rico">
+  <data key="d0">1</data>
+</edge>
+<edge source="fazer" target="atividade">
+  <data key="d0">1</data>
+</edge>
+<edge source="fazer" target="também">
+  <data key="d0">1</data>
+</edge>
+<edge source="fazer" target="tenro">
+  <data key="d0">1</data>
+</edge>
+<edge source="fazer" target="agradecer">
+  <data key="d0">1</data>
+</edge>
+<edge source="abalar" target="trabalho">
+  <data key="d0">1</data>
+</edge>
+<edge source="trabalho" target="marítimo">
+  <data key="d0">1</data>
+</edge>
+<edge source="trabalho" target="muito">
+  <data key="d0">1</data>
+</edge>
+<edge source="marítimo" target="regalar">
+  <data key="d0">1</data>
+</edge>
+<edge source="regalar" target="rede">
+  <data key="d0">1</data>
+</edge>
+<edge source="rede" target="estender">
+  <data key="d0">1</data>
+</edge>
+<edge source="estender" target="vário">
+  <data key="d0">1</data>
+</edge>
+<edge source="peixe" target="pequeno">
+  <data key="d0">1</data>
+</edge>
+<edge source="peixe" target="verdade">
+  <data key="d0">1</data>
+</edge>
+<edge source="peixe" target="enganado">
+  <data key="d0">1</data>
+</edge>
+<edge source="peixe" target="regalado">
+  <data key="d0">1</data>
+</edge>
+<edge source="pequeno" target="prender">
+  <data key="d0">1</data>
+</edge>
+<edge source="pequeno" target="mundo">
+  <data key="d0">1</data>
+</edge>
+<edge source="pequeno" target="terra">
+  <data key="d0">1</data>
+</edge>
+<edge source="prender" target="peixe">
+  <data key="d0">1</data>
+</edge>
+<edge source="verdade" target="puro">
+  <data key="d0">1</data>
+</edge>
+<edge source="puro" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="puro" target="agradável">
+  <data key="d0">1</data>
+</edge>
+<edge source="puro" target="sempre">
+  <data key="d0">1</data>
+</edge>
+<edge source="desventura" target="outro">
+  <data key="d0">1</data>
+</edge>
+<edge source="anzol" target="fiado">
+  <data key="d0">1</data>
+</edge>
+<edge source="fiado" target="ter">
+  <data key="d0">1</data>
+</edge>
+<edge source="mísero" target="peixe">
+  <data key="d0">1</data>
+</edge>
+<edge source="enganado" target="sempre">
+  <data key="d0">1</data>
+</edge>
+<edge source="sempre" target="vil">
+  <data key="d0">1</data>
+</edge>
+<edge source="sempre" target="ela">
+  <data key="d0">1</data>
+</edge>
+<edge source="sempre" target="maior">
+  <data key="d0">1</data>
+</edge>
+<edge source="sempre" target="doze">
+  <data key="d0">1</data>
+</edge>
+<edge source="sempre" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="sempre" target="verde">
+  <data key="d0">1</data>
+</edge>
+<edge source="sempre" target="ledo">
+  <data key="d0">1</data>
+</edge>
+<edge source="sempre" target="imaculado">
+  <data key="d0">1</data>
+</edge>
+<edge source="vil" target="isca">
+  <data key="d0">1</data>
+</edge>
+<edge source="isca" target="cobiçoso">
+  <data key="d0">1</data>
+</edge>
+<edge source="cobiçoso" target="perder">
+  <data key="d0">1</data>
+</edge>
+<edge source="perder" target="próprio">
+  <data key="d0">1</data>
+</edge>
+<edge source="perder" target="vida">
+  <data key="d0">1</data>
+</edge>
+<edge source="próprio" target="vida">
+  <data key="d0">1</data>
+</edge>
+<edge source="próprio" target="delícia">
+  <data key="d0">1</data>
+</edge>
+<edge source="próprio" target="fruita">
+  <data key="d0">1</data>
+</edge>
+<edge source="próprio" target="coqueiro">
+  <data key="d0">1</data>
+</edge>
+<edge source="próprio" target="mantimento">
+  <data key="d0">1</data>
+</edge>
+<edge source="vida" target="guloso">
+  <data key="d0">1</data>
+</edge>
+<edge source="vida" target="romã">
+  <data key="d0">1</data>
+</edge>
+<edge source="guloso" target="aqui">
+  <data key="d0">1</data>
+</edge>
+<edge source="aqui" target="se">
+  <data key="d0">3</data>
+</edge>
+<edge source="aqui" target="marisco">
+  <data key="d0">1</data>
+</edge>
+<edge source="aqui" target="tão">
+  <data key="d0">1</data>
+</edge>
+<edge source="aqui" target="não">
+  <data key="d0">1</data>
+</edge>
+<edge source="regalado" target="tal">
+  <data key="d0">1</data>
+</edge>
+<edge source="regalado" target="fazer">
+  <data key="d0">1</data>
+</edge>
+<edge source="tal" target="sustância">
+  <data key="d0">1</data>
+</edge>
+<edge source="tal" target="doce">
+  <data key="d0">1</data>
+</edge>
+<edge source="tal" target="qualidade">
+  <data key="d0">1</data>
+</edge>
+<edge source="tal" target="favor">
+  <data key="d0">1</data>
+</edge>
+<edge source="sustância" target="gostar">
+  <data key="d0">1</data>
+</edge>
+<edge source="gostar" target="preparado">
+  <data key="d0">1</data>
+</edge>
+<edge source="preparado" target="tempero">
+  <data key="d0">1</data>
+</edge>
+<edge source="tempero" target="algum">
+  <data key="d0">1</data>
+</edge>
+<edge source="tempero" target="acomodado">
+  <data key="d0">1</data>
+</edge>
+<edge source="algum" target="apetite">
+  <data key="d0">1</data>
+</edge>
+<edge source="apetite" target="fazer">
+  <data key="d0">1</data>
+</edge>
+<edge source="gostoso" target="convite">
+  <data key="d0">1</data>
+</edge>
+<edge source="gostoso" target="tão">
+  <data key="d0">1</data>
+</edge>
+<edge source="gostoso" target="andar">
+  <data key="d0">1</data>
+</edge>
+<edge source="gostoso" target="frio">
+  <data key="d0">1</data>
+</edge>
+<edge source="gostoso" target="agrado">
+  <data key="d0">1</data>
+</edge>
+<edge source="convite" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="poder" target="dizer">
+  <data key="d0">2</data>
+</edge>
+<edge source="poder" target="tirar">
+  <data key="d0">1</data>
+</edge>
+<edge source="dizer" target="graça">
+  <data key="d0">1</data>
+</edge>
+<edge source="dizer" target="que">
+  <data key="d0">1</data>
+</edge>
+<edge source="dizer" target="bastar">
+  <data key="d0">1</data>
+</edge>
+<edge source="graça" target="raro">
+  <data key="d0">1</data>
+</edge>
+<edge source="graça" target="tributo">
+  <data key="d0">1</data>
+</edge>
+<edge source="raro" target="mesmo">
+  <data key="d0">1</data>
+</edge>
+<edge source="raro" target="tão">
+  <data key="d0">1</data>
+</edge>
+<edge source="mesmo" target="natureza">
+  <data key="d0">1</data>
+</edge>
+<edge source="mesmo" target="dia">
+  <data key="d0">1</data>
+</edge>
+<edge source="mesmo" target="agrado">
+  <data key="d0">1</data>
+</edge>
+<edge source="natureza" target="o">
+  <data key="d0">1</data>
+</edge>
+<edge source="natureza" target="lhes">
+  <data key="d0">1</data>
+</edge>
+<edge source="o" target="temperar">
+  <data key="d0">1</data>
+</edge>
+<edge source="o" target="ter">
+  <data key="d0">1</data>
+</edge>
+<edge source="o" target="gozar">
+  <data key="d0">1</data>
+</edge>
+<edge source="o" target="solicitar">
+  <data key="d0">1</data>
+</edge>
+<edge source="o" target="matar">
+  <data key="d0">1</data>
+</edge>
+<edge source="o" target="prezar">
+  <data key="d0">1</data>
+</edge>
+<edge source="o" target="também">
+  <data key="d0">1</data>
+</edge>
+<edge source="o" target="mangar">
+  <data key="d0">1</data>
+</edge>
+<edge source="o" target="queimar">
+  <data key="d0">1</data>
+</edge>
+<edge source="temperar" target="não">
+  <data key="d0">1</data>
+</edge>
+<edge source="não" target="faltar">
+  <data key="d0">3</data>
+</edge>
+<edge source="não" target="falar">
+  <data key="d0">2</data>
+</edge>
+<edge source="não" target="querer">
+  <data key="d0">2</data>
+</edge>
+<edge source="não" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="não" target="só">
+  <data key="d0">1</data>
+</edge>
+<edge source="não" target="o">
+  <data key="d0">1</data>
+</edge>
+<edge source="não" target="haver">
+  <data key="d0">1</data>
+</edge>
+<edge source="não" target="mentir">
+  <data key="d0">1</data>
+</edge>
+<edge source="faltar" target="aqui">
+  <data key="d0">1</data>
+</edge>
+<edge source="faltar" target="figo">
+  <data key="d0">1</data>
+</edge>
+<edge source="faltar" target="favor">
+  <data key="d0">1</data>
+</edge>
+<edge source="faltar" target="outro">
+  <data key="d0">1</data>
+</edge>
+<edge source="marisco" target="saboroso">
+  <data key="d0">1</data>
+</edge>
+<edge source="saboroso" target="tirar">
+  <data key="d0">1</data>
+</edge>
+<edge source="tirar" target="fastio">
+  <data key="d0">1</data>
+</edge>
+<edge source="tirar" target="pomar">
+  <data key="d0">1</data>
+</edge>
+<edge source="tirar" target="fome">
+  <data key="d0">1</data>
+</edge>
+<edge source="fastio" target="melindroso">
+  <data key="d0">1</data>
+</edge>
+<edge source="melindroso" target="polvo">
+  <data key="d0">1</data>
+</edge>
+<edge source="polvo" target="radiante">
+  <data key="d0">1</data>
+</edge>
+<edge source="radiante" target="lagostim">
+  <data key="d0">1</data>
+</edge>
+<edge source="lagostim" target="flamante">
+  <data key="d0">1</data>
+</edge>
+<edge source="lagostim" target="pobre">
+  <data key="d0">1</data>
+</edge>
+<edge source="flamante" target="camarão">
+  <data key="d0">1</data>
+</edge>
+<edge source="camarão" target="excelente">
+  <data key="d0">1</data>
+</edge>
+<edge source="excelente" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="excelente" target="lhe">
+  <data key="d0">1</data>
+</edge>
+<edge source="parente" target="retrógrado">
+  <data key="d0">1</data>
+</edge>
+<edge source="retrógrado" target="formar">
+  <data key="d0">1</data>
+</edge>
+<edge source="formar" target="pé">
+  <data key="d0">1</data>
+</edge>
+<edge source="boca" target="festejo">
+  <data key="d0">1</data>
+</edge>
+<edge source="boca" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="festejo" target="ostra">
+  <data key="d0">1</data>
+</edge>
+<edge source="ostra" target="alimentar">
+  <data key="d0">1</data>
+</edge>
+<edge source="alimentar" target="estar">
+  <data key="d0">1</data>
+</edge>
+<edge source="pedra" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="gerar" target="enfim">
+  <data key="d0">1</data>
+</edge>
+<edge source="gerar" target="parto">
+  <data key="d0">1</data>
+</edge>
+<edge source="gerar" target="cada">
+  <data key="d0">1</data>
+</edge>
+<edge source="gerar" target="europa">
+  <data key="d0">1</data>
+</edge>
+<edge source="enfim" target="tanto">
+  <data key="d0">1</data>
+</edge>
+<edge source="mariscar" target="não">
+  <data key="d0">1</data>
+</edge>
+<edge source="falar" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="falar" target="todo">
+  <data key="d0">1</data>
+</edge>
+<edge source="regalo" target="planta">
+  <data key="d0">1</data>
+</edge>
+<edge source="regalo" target="passatempo">
+  <data key="d0">1</data>
+</edge>
+<edge source="regalo" target="mais">
+  <data key="d0">1</data>
+</edge>
+<edge source="planta" target="sempre">
+  <data key="d0">1</data>
+</edge>
+<edge source="reverdecer" target="folha">
+  <data key="d0">1</data>
+</edge>
+<edge source="folha" target="parecer">
+  <data key="d0">1</data>
+</edge>
+<edge source="desterrar" target="inverno">
+  <data key="d0">1</data>
+</edge>
+<edge source="inverno" target="desfavor">
+  <data key="d0">1</data>
+</edge>
+<edge source="desfavor" target="esmeralda">
+  <data key="d0">1</data>
+</edge>
+<edge source="esmeralda" target="abril">
+  <data key="d0">1</data>
+</edge>
+<edge source="abril" target="seu">
+  <data key="d0">1</data>
+</edge>
+<edge source="verdor" target="de">
+  <data key="d0">1</data>
+</edge>
+<edge source="adornar" target="apetecer">
+  <data key="d0">1</data>
+</edge>
+<edge source="divino" target="flora">
+  <data key="d0">1</data>
+</edge>
+<edge source="flora" target="seu">
+  <data key="d0">1</data>
+</edge>
+<edge source="vestido" target="fruita">
+  <data key="d0">1</data>
+</edge>
+<edge source="vestido" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="fruita" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="fruita" target="afago">
+  <data key="d0">1</data>
+</edge>
+<edge source="fruita" target="quase">
+  <data key="d0">1</data>
+</edge>
+<edge source="fruita" target="estranho">
+  <data key="d0">1</data>
+</edge>
+<edge source="fruita" target="merecer">
+  <data key="d0">1</data>
+</edge>
+<edge source="fruita" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="fruita" target="terra">
+  <data key="d0">1</data>
+</edge>
+<edge source="fruita" target="soberano">
+  <data key="d0">1</data>
+</edge>
+<edge source="fruita" target="dizer">
+  <data key="d0">1</data>
+</edge>
+<edge source="fruita" target="legume">
+  <data key="d0">1</data>
+</edge>
+<edge source="produzir" target="copioso">
+  <data key="d0">1</data>
+</edge>
+<edge source="produzir" target="tão">
+  <data key="d0">1</data>
+</edge>
+<edge source="produzir" target="mato">
+  <data key="d0">1</data>
+</edge>
+<edge source="copioso" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="copioso" target="parecer">
+  <data key="d0">1</data>
+</edge>
+<edge source="tão" target="deleitoso">
+  <data key="d0">1</data>
+</edge>
+<edge source="tão" target="breve">
+  <data key="d0">1</data>
+</edge>
+<edge source="tão" target="gostoso">
+  <data key="d0">1</data>
+</edge>
+<edge source="tão" target="raro">
+  <data key="d0">1</data>
+</edge>
+<edge source="tão" target="mimoso">
+  <data key="d0">1</data>
+</edge>
+<edge source="tão" target="docemente">
+  <data key="d0">1</data>
+</edge>
+<edge source="tão" target="liberal">
+  <data key="d0">1</data>
+</edge>
+<edge source="tão" target="diverso">
+  <data key="d0">1</data>
+</edge>
+<edge source="tão" target="picante">
+  <data key="d0">1</data>
+</edge>
+<edge source="tão" target="fecundo">
+  <data key="d0">1</data>
+</edge>
+<edge source="deleitoso" target="que">
+  <data key="d0">1</data>
+</edge>
+<edge source="deleitoso" target="de">
+  <data key="d0">1</data>
+</edge>
+<edge source="deleitoso" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="que" target="junto">
+  <data key="d0">1</data>
+</edge>
+<edge source="que" target="europa">
+  <data key="d0">1</data>
+</edge>
+<edge source="que" target="alguém">
+  <data key="d0">1</data>
+</edge>
+<edge source="que" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="que" target="docemente">
+  <data key="d0">1</data>
+</edge>
+<edge source="que" target="frança">
+  <data key="d0">1</data>
+</edge>
+<edge source="que" target="rei">
+  <data key="d0">1</data>
+</edge>
+<edge source="que" target="pêssego">
+  <data key="d0">1</data>
+</edge>
+<edge source="que" target="si">
+  <data key="d0">1</data>
+</edge>
+<edge source="que" target="branco">
+  <data key="d0">1</data>
+</edge>
+<edge source="que" target="terra">
+  <data key="d0">1</data>
+</edge>
+<edge source="que" target="querer">
+  <data key="d0">1</data>
+</edge>
+<edge source="junto" target="mar">
+  <data key="d0">1</data>
+</edge>
+<edge source="sítio" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="posto" target="lhes">
+  <data key="d0">1</data>
+</edge>
+<edge source="lhes" target="dar">
+  <data key="d0">2</data>
+</edge>
+<edge source="lhes" target="levar">
+  <data key="d0">1</data>
+</edge>
+<edge source="sal" target="gosto">
+  <data key="d0">1</data>
+</edge>
+<edge source="cana" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="cana" target="fértil">
+  <data key="d0">1</data>
+</edge>
+<edge source="breve" target="discurso">
+  <data key="d0">1</data>
+</edge>
+<edge source="breve" target="apodo">
+  <data key="d0">1</data>
+</edge>
+<edge source="discurso" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="reduzir" target="crescer">
+  <data key="d0">1</data>
+</edge>
+<edge source="crescer" target="muito">
+  <data key="d0">1</data>
+</edge>
+<edge source="doze" target="mês">
+  <data key="d0">2</data>
+</edge>
+<edge source="mês" target="lhe">
+  <data key="d0">1</data>
+</edge>
+<edge source="mês" target="melão">
+  <data key="d0">1</data>
+</edge>
+<edge source="mês" target="agosto">
+  <data key="d0">1</data>
+</edge>
+<edge source="sazonar" target="não">
+  <data key="d0">1</data>
+</edge>
+<edge source="fruto" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="fruto" target="mantimento">
+  <data key="d0">1</data>
+</edge>
+<edge source="fruto" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="fruto" target="deleitoso">
+  <data key="d0">1</data>
+</edge>
+<edge source="desejar" target="ser">
+  <data key="d0">2</data>
+</edge>
+<edge source="velho" target="cana">
+  <data key="d0">1</data>
+</edge>
+<edge source="fértil" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="laranja" target="terra">
+  <data key="d0">1</data>
+</edge>
+<edge source="azedar" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="antes" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="antes" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="encerrar" target="tal">
+  <data key="d0">1</data>
+</edge>
+<edge source="encerrar" target="ter">
+  <data key="d0">1</data>
+</edge>
+<edge source="doce" target="em">
+  <data key="d0">1</data>
+</edge>
+<edge source="doce" target="melhor">
+  <data key="d0">1</data>
+</edge>
+<edge source="doce" target="usura">
+  <data key="d0">1</data>
+</edge>
+<edge source="doce" target="cândido">
+  <data key="d0">1</data>
+</edge>
+<edge source="doce" target="mais">
+  <data key="d0">1</data>
+</edge>
+<edge source="doce" target="favo">
+  <data key="d0">1</data>
+</edge>
+<edge source="pomo" target="o">
+  <data key="d0">1</data>
+</edge>
+<edge source="pomo" target="celebrar">
+  <data key="d0">1</data>
+</edge>
+<edge source="clarificar" target="seu">
+  <data key="d0">1</data>
+</edge>
+<edge source="gomo" target="portugal">
+  <data key="d0">1</data>
+</edge>
+<edge source="portugal" target="alameda">
+  <data key="d0">1</data>
+</edge>
+<edge source="portugal" target="lhe">
+  <data key="d0">1</data>
+</edge>
+<edge source="portugal" target="muito">
+  <data key="d0">1</data>
+</edge>
+<edge source="alameda" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="premir" target="limão">
+  <data key="d0">1</data>
+</edge>
+<edge source="limão" target="todo">
+  <data key="d0">1</data>
+</edge>
+<edge source="limão" target="não">
+  <data key="d0">1</data>
+</edge>
+<edge source="azedo" target="chamar">
+  <data key="d0">1</data>
+</edge>
+<edge source="chamar" target="china">
+  <data key="d0">1</data>
+</edge>
+<edge source="china" target="grande">
+  <data key="d0">1</data>
+</edge>
+<edge source="grande" target="sabor">
+  <data key="d0">1</data>
+</edge>
+<edge source="grande" target="pequeno">
+  <data key="d0">1</data>
+</edge>
+<edge source="grande" target="levar">
+  <data key="d0">1</data>
+</edge>
+<edge source="sabor" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="sabor" target="alentar">
+  <data key="d0">1</data>
+</edge>
+<edge source="sabor" target="criar">
+  <data key="d0">1</data>
+</edge>
+<edge source="afinar" target="mais">
+  <data key="d0">1</data>
+</edge>
+<edge source="mais" target="que">
+  <data key="d0">2</data>
+</edge>
+<edge source="mais" target="valia">
+  <data key="d0">1</data>
+</edge>
+<edge source="mais" target="façanha">
+  <data key="d0">1</data>
+</edge>
+<edge source="mais" target="menos">
+  <data key="d0">1</data>
+</edge>
+<edge source="mais" target="gostoso">
+  <data key="d0">1</data>
+</edge>
+<edge source="mais" target="doce">
+  <data key="d0">1</data>
+</edge>
+<edge source="mais" target="cheiroso">
+  <data key="d0">1</data>
+</edge>
+<edge source="mais" target="faminto">
+  <data key="d0">1</data>
+</edge>
+<edge source="mais" target="cuidar">
+  <data key="d0">1</data>
+</edge>
+<edge source="mais" target="substância">
+  <data key="d0">1</data>
+</edge>
+<edge source="mais" target="crescido">
+  <data key="d0">1</data>
+</edge>
+<edge source="mais" target="mimoso">
+  <data key="d0">1</data>
+</edge>
+<edge source="mais" target="mancha">
+  <data key="d0">1</data>
+</edge>
+<edge source="europa" target="doce">
+  <data key="d0">1</data>
+</edge>
+<edge source="europa" target="trasladado">
+  <data key="d0">1</data>
+</edge>
+<edge source="europa" target="engrandecido">
+  <data key="d0">1</data>
+</edge>
+<edge source="europa" target="crer">
+  <data key="d0">1</data>
+</edge>
+<edge source="europa" target="mesmo">
+  <data key="d0">1</data>
+</edge>
+<edge source="melhor" target="ter">
+  <data key="d0">1</data>
+</edge>
+<edge source="melhor" target="que">
+  <data key="d0">1</data>
+</edge>
+<edge source="melhor" target="cereja">
+  <data key="d0">1</data>
+</edge>
+<edge source="melhor" target="padroeiro">
+  <data key="d0">1</data>
+</edge>
+<edge source="maior" target="em">
+  <data key="d0">1</data>
+</edge>
+<edge source="maior" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="maior" target="mais">
+  <data key="d0">1</data>
+</edge>
+<edge source="maioria" target="maior">
+  <data key="d0">1</data>
+</edge>
+<edge source="valia" target="limão">
+  <data key="d0">1</data>
+</edge>
+<edge source="ah" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="holanda" target="o">
+  <data key="d0">1</data>
+</edge>
+<edge source="holanda" target="pérfido">
+  <data key="d0">1</data>
+</edge>
+<edge source="nenhum" target="província">
+  <data key="d0">1</data>
+</edge>
+<edge source="província" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="trocar" target="cidra">
+  <data key="d0">1</data>
+</edge>
+<edge source="cidra" target="amarelo">
+  <data key="d0">1</data>
+</edge>
+<edge source="amarelo" target="cair">
+  <data key="d0">1</data>
+</edge>
+<edge source="amarelo" target="vários">
+  <data key="d0">1</data>
+</edge>
+<edge source="cair" target="estar">
+  <data key="d0">1</data>
+</edge>
+<edge source="inchado" target="presumido">
+  <data key="d0">1</data>
+</edge>
+<edge source="presumido" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="bem" target="estar">
+  <data key="d0">1</data>
+</edge>
+<edge source="bem" target="mil">
+  <data key="d0">1</data>
+</edge>
+<edge source="bem" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="chão" target="caído">
+  <data key="d0">1</data>
+</edge>
+<edge source="caído" target="uva">
+  <data key="d0">1</data>
+</edge>
+<edge source="uva" target="moscatel">
+  <data key="d0">1</data>
+</edge>
+<edge source="moscatel" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="mimoso" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="mimoso" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="lisboa" target="vira">
+  <data key="d0">1</data>
+</edge>
+<edge source="vira" target="imaginar">
+  <data key="d0">1</data>
+</edge>
+<edge source="imaginar" target="que">
+  <data key="d0">1</data>
+</edge>
+<edge source="alguém" target="seu">
+  <data key="d0">1</data>
+</edge>
+<edge source="pomar" target="a">
+  <data key="d0">1</data>
+</edge>
+<edge source="pomar" target="ambrósia">
+  <data key="d0">1</data>
+</edge>
+<edge source="furtar" target="de">
+  <data key="d0">1</data>
+</edge>
+<edge source="produção" target="copioso">
+  <data key="d0">1</data>
+</edge>
+<edge source="milagroso" target="dar">
+  <data key="d0">1</data>
+</edge>
+<edge source="ano" target="dois">
+  <data key="d0">1</data>
+</edge>
+<edge source="ano" target="nos">
+  <data key="d0">1</data>
+</edge>
+<edge source="dois" target="vez">
+  <data key="d0">1</data>
+</edge>
+<edge source="vez" target="gerar">
+  <data key="d0">1</data>
+</edge>
+<edge source="parto" target="sempre">
+  <data key="d0">1</data>
+</edge>
+<edge source="melão" target="celebrar">
+  <data key="d0">1</data>
+</edge>
+<edge source="celebrar" target="aqui">
+  <data key="d0">1</data>
+</edge>
+<edge source="celebrar" target="todo">
+  <data key="d0">1</data>
+</edge>
+<edge source="docemente" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="docemente" target="nos">
+  <data key="d0">1</data>
+</edge>
+<edge source="cada" target="tanto">
+  <data key="d0">1</data>
+</edge>
+<edge source="cada" target="melancia">
+  <data key="d0">1</data>
+</edge>
+<edge source="alentar" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="alentar" target="ter">
+  <data key="d0">1</data>
+</edge>
+<edge source="alentar" target="glória">
+  <data key="d0">1</data>
+</edge>
+<edge source="açúcar" target="pimenta">
+  <data key="d0">1</data>
+</edge>
+<edge source="açúcar" target="rosado">
+  <data key="d0">1</data>
+</edge>
+<edge source="açúcar" target="deleitoso">
+  <data key="d0">1</data>
+</edge>
+<edge source="açúcar" target="aguar">
+  <data key="d0">1</data>
+</edge>
+<edge source="pimenta" target="saber">
+  <data key="d0">1</data>
+</edge>
+<edge source="pimenta" target="elegante">
+  <data key="d0">1</data>
+</edge>
+<edge source="saber" target="bem">
+  <data key="d0">1</data>
+</edge>
+<edge source="mil" target="agrado">
+  <data key="d0">1</data>
+</edge>
+<edge source="agrado" target="bem">
+  <data key="d0">1</data>
+</edge>
+<edge source="agrado" target="açúcar">
+  <data key="d0">1</data>
+</edge>
+<edge source="agrado" target="milho">
+  <data key="d0">1</data>
+</edge>
+<edge source="letrado" target="não">
+  <data key="d0">1</data>
+</edge>
+<edge source="ofuscar" target="gosto">
+  <data key="d0">1</data>
+</edge>
+<edge source="abonar" target="próprio">
+  <data key="d0">1</data>
+</edge>
+<edge source="delícia" target="melancia">
+  <data key="d0">1</data>
+</edge>
+<edge source="melancia" target="igual">
+  <data key="d0">1</data>
+</edge>
+<edge source="melancia" target="colmeia">
+  <data key="d0">1</data>
+</edge>
+<edge source="igual" target="bondade">
+  <data key="d0">1</data>
+</edge>
+<edge source="bondade" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="bondade" target="apurar">
+  <data key="d0">1</data>
+</edge>
+<edge source="qualidade" target="que">
+  <data key="d0">1</data>
+</edge>
+<edge source="nos" target="recrear">
+  <data key="d0">1</data>
+</edge>
+<edge source="nos" target="mostrar">
+  <data key="d0">1</data>
+</edge>
+<edge source="nos" target="dar">
+  <data key="d0">1</data>
+</edge>
+<edge source="recrear" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="colmeia" target="ter">
+  <data key="d0">1</data>
+</edge>
+<edge source="rosto" target="insulso">
+  <data key="d0">1</data>
+</edge>
+<edge source="insulso" target="abóbora">
+  <data key="d0">1</data>
+</edge>
+<edge source="abóbora" target="gosto">
+  <data key="d0">1</data>
+</edge>
+<edge source="figo" target="o">
+  <data key="d0">1</data>
+</edge>
+<edge source="figo" target="maltratar">
+  <data key="d0">1</data>
+</edge>
+<edge source="solicitar" target="pássaro">
+  <data key="d0">1</data>
+</edge>
+<edge source="pássaro" target="amigo">
+  <data key="d0">1</data>
+</edge>
+<edge source="amigo" target="apetitoso">
+  <data key="d0">1</data>
+</edge>
+<edge source="amigo" target="grande">
+  <data key="d0">1</data>
+</edge>
+<edge source="apetitoso" target="sua">
+  <data key="d0">1</data>
+</edge>
+<edge source="sua" target="doce">
+  <data key="d0">1</data>
+</edge>
+<edge source="sua" target="chipre">
+  <data key="d0">1</data>
+</edge>
+<edge source="usura" target="crer">
+  <data key="d0">1</data>
+</edge>
+<edge source="apetitar" target="doçura">
+  <data key="d0">1</data>
+</edge>
+<edge source="doçura" target="acaso">
+  <data key="d0">1</data>
+</edge>
+<edge source="acaso" target="o">
+  <data key="d0">1</data>
+</edge>
+<edge source="matar" target="figo">
+  <data key="d0">1</data>
+</edge>
+<edge source="maltratar" target="parecer">
+  <data key="d0">1</data>
+</edge>
+<edge source="mariposa" target="embeber">
+  <data key="d0">1</data>
+</edge>
+<edge source="embeber" target="chama">
+  <data key="d0">1</data>
+</edge>
+<edge source="chama" target="alegre">
+  <data key="d0">1</data>
+</edge>
+<edge source="alegre" target="ir">
+  <data key="d0">1</data>
+</edge>
+<edge source="romã" target="rubicundo">
+  <data key="d0">1</data>
+</edge>
+<edge source="rubicundo" target="aberto">
+  <data key="d0">1</data>
+</edge>
+<edge source="rubicundo" target="gosto">
+  <data key="d0">1</data>
+</edge>
+<edge source="aberto" target="vista">
+  <data key="d0">1</data>
+</edge>
+<edge source="agrar" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="língua" target="oferta">
+  <data key="d0">1</data>
+</edge>
+<edge source="oferta" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="tesourar" target="fruita">
+  <data key="d0">1</data>
+</edge>
+<edge source="afago" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="rubi" target="suave">
+  <data key="d0">1</data>
+</edge>
+<edge source="suave" target="seu">
+  <data key="d0">1</data>
+</edge>
+<edge source="suave" target="manjar">
+  <data key="d0">1</data>
+</edge>
+<edge source="bago" target="fruita">
+  <data key="d0">1</data>
+</edge>
+<edge source="quase" target="todo">
+  <data key="d0">1</data>
+</edge>
+<edge source="quase" target="tudo">
+  <data key="d0">1</data>
+</edge>
+<edge source="nomear" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="brasil" target="europa">
+  <data key="d0">1</data>
+</edge>
+<edge source="brasil" target="mais">
+  <data key="d0">1</data>
+</edge>
+<edge source="brasil" target="sustento">
+  <data key="d0">1</data>
+</edge>
+<edge source="brasil" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="brasil" target="conter">
+  <data key="d0">1</data>
+</edge>
+<edge source="brasil" target="todo">
+  <data key="d0">1</data>
+</edge>
+<edge source="brasil" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="trasladado" target="ter">
+  <data key="d0">1</data>
+</edge>
+<edge source="façanha" target="além">
+  <data key="d0">1</data>
+</edge>
+<edge source="além" target="próprio">
+  <data key="d0">1</data>
+</edge>
+<edge source="além" target="fruita">
+  <data key="d0">1</data>
+</edge>
+<edge source="estranho" target="tratar">
+  <data key="d0">1</data>
+</edge>
+<edge source="estranho" target="tributar">
+  <data key="d0">1</data>
+</edge>
+<edge source="tratar" target="próprio">
+  <data key="d0">1</data>
+</edge>
+<edge source="coqueiro" target="galhardo">
+  <data key="d0">1</data>
+</edge>
+<edge source="galhardo" target="frondoso">
+  <data key="d0">1</data>
+</edge>
+<edge source="galhardo" target="fruita">
+  <data key="d0">1</data>
+</edge>
+<edge source="frondoso" target="criar">
+  <data key="d0">1</data>
+</edge>
+<edge source="criar" target="coco">
+  <data key="d0">1</data>
+</edge>
+<edge source="criar" target="castanha">
+  <data key="d0">1</data>
+</edge>
+<edge source="criar" target="mais">
+  <data key="d0">1</data>
+</edge>
+<edge source="coco" target="gostoso">
+  <data key="d0">1</data>
+</edge>
+<edge source="andar" target="tão">
+  <data key="d0">1</data>
+</edge>
+<edge source="liberal" target="natureza">
+  <data key="d0">1</data>
+</edge>
+<edge source="liberal" target="a">
+  <data key="d0">1</data>
+</edge>
+<edge source="liberal" target="mão">
+  <data key="d0">1</data>
+</edge>
+<edge source="grandeza" target="não">
+  <data key="d0">1</data>
+</edge>
+<edge source="só" target="bebida">
+  <data key="d0">1</data>
+</edge>
+<edge source="bebida" target="sustentar">
+  <data key="d0">1</data>
+</edge>
+<edge source="sustentar" target="néctar">
+  <data key="d0">1</data>
+</edge>
+<edge source="néctar" target="doce">
+  <data key="d0">1</data>
+</edge>
+<edge source="cândido" target="alimento">
+  <data key="d0">1</data>
+</edge>
+<edge source="cândido" target="inhame">
+  <data key="d0">1</data>
+</edge>
+<edge source="alimento" target="vário">
+  <data key="d0">1</data>
+</edge>
+<edge source="cor" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="cor" target="também">
+  <data key="d0">1</data>
+</edge>
+<edge source="cor" target="rubicundo">
+  <data key="d0">1</data>
+</edge>
+<edge source="cor" target="honesto">
+  <data key="d0">1</data>
+</edge>
+<edge source="caju" target="belo">
+  <data key="d0">1</data>
+</edge>
+<edge source="vermelho" target="outro">
+  <data key="d0">1</data>
+</edge>
+<edge source="vermelho" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="vários" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="também" target="se">
+  <data key="d0">2</data>
+</edge>
+<edge source="também" target="servir">
+  <data key="d0">1</data>
+</edge>
+<edge source="também" target="dar">
+  <data key="d0">1</data>
+</edge>
+<edge source="também" target="gostoso">
+  <data key="d0">1</data>
+</edge>
+<edge source="também" target="não">
+  <data key="d0">1</data>
+</edge>
+<edge source="também" target="mais">
+  <data key="d0">1</data>
+</edge>
+<edge source="castanha" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="frança" target="itália">
+  <data key="d0">1</data>
+</edge>
+<edge source="itália" target="espanha">
+  <data key="d0">1</data>
+</edge>
+<edge source="espanha" target="pitanga">
+  <data key="d0">1</data>
+</edge>
+<edge source="espanha" target="calar">
+  <data key="d0">1</data>
+</edge>
+<edge source="pitanga" target="fecundo">
+  <data key="d0">1</data>
+</edge>
+<edge source="fecundo" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="fecundo" target="o">
+  <data key="d0">1</data>
+</edge>
+<edge source="fecundo" target="outro">
+  <data key="d0">1</data>
+</edge>
+<edge source="picante" target="comparar">
+  <data key="d0">1</data>
+</edge>
+<edge source="picante" target="todo">
+  <data key="d0">1</data>
+</edge>
+<edge source="picante" target="espinho">
+  <data key="d0">1</data>
+</edge>
+<edge source="comparar" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="américa" target="ginja">
+  <data key="d0">1</data>
+</edge>
+<edge source="ginja" target="disfarçado">
+  <data key="d0">1</data>
+</edge>
+<edge source="disfarçado" target="pitomba">
+  <data key="d0">1</data>
+</edge>
+<edge source="pitomba" target="dourado">
+  <data key="d0">1</data>
+</edge>
+<edge source="dourado" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="cereja" target="ter">
+  <data key="d0">1</data>
+</edge>
+<edge source="primor" target="inteiro">
+  <data key="d0">1</data>
+</edge>
+<edge source="inteiro" target="lhes">
+  <data key="d0">1</data>
+</edge>
+<edge source="levar" target="cheiro">
+  <data key="d0">1</data>
+</edge>
+<edge source="levar" target="gracioso">
+  <data key="d0">1</data>
+</edge>
+<edge source="levar" target="pão">
+  <data key="d0">1</data>
+</edge>
+<edge source="cheiro" target="grande">
+  <data key="d0">1</data>
+</edge>
+<edge source="cheiro" target="famoso">
+  <data key="d0">1</data>
+</edge>
+<edge source="pêra" target="europa">
+  <data key="d0">1</data>
+</edge>
+<edge source="engrandecido" target="ela">
+  <data key="d0">1</data>
+</edge>
+<edge source="casto" target="marmelada">
+  <data key="d0">1</data>
+</edge>
+<edge source="casto" target="ir">
+  <data key="d0">1</data>
+</edge>
+<edge source="marmelada" target="belo">
+  <data key="d0">1</data>
+</edge>
+<edge source="banana" target="mundo">
+  <data key="d0">1</data>
+</edge>
+<edge source="conhecido" target="fruto">
+  <data key="d0">1</data>
+</edge>
+<edge source="mantimento" target="apetecer">
+  <data key="d0">1</data>
+</edge>
+<edge source="mantimento" target="sorte">
+  <data key="d0">1</data>
+</edge>
+<edge source="céu" target="regalo">
+  <data key="d0">1</data>
+</edge>
+<edge source="passatempo" target="liberal">
+  <data key="d0">1</data>
+</edge>
+<edge source="conceder" target="todo">
+  <data key="d0">1</data>
+</edge>
+<edge source="tempo" target="competir">
+  <data key="d0">1</data>
+</edge>
+<edge source="competir" target="maçã">
+  <data key="d0">1</data>
+</edge>
+<edge source="maçã" target="verdear">
+  <data key="d0">1</data>
+</edge>
+<edge source="verdear" target="também">
+  <data key="d0">1</data>
+</edge>
+<edge source="servir" target="pão">
+  <data key="d0">1</data>
+</edge>
+<edge source="servir" target="conduto">
+  <data key="d0">1</data>
+</edge>
+<edge source="pão" target="morador">
+  <data key="d0">1</data>
+</edge>
+<edge source="pão" target="servir">
+  <data key="d0">1</data>
+</edge>
+<edge source="pão" target="trigo">
+  <data key="d0">1</data>
+</edge>
+<edge source="morador" target="farinha">
+  <data key="d0">1</data>
+</edge>
+<edge source="farinha" target="faltar">
+  <data key="d0">1</data>
+</edge>
+<edge source="farinha" target="oculto">
+  <data key="d0">1</data>
+</edge>
+<edge source="farinha" target="fácil">
+  <data key="d0">1</data>
+</edge>
+<edge source="favor" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="favor" target="alentar">
+  <data key="d0">1</data>
+</edge>
+<edge source="condutar" target="também">
+  <data key="d0">1</data>
+</edge>
+<edge source="sustento" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="sustento" target="duplicado">
+  <data key="d0">1</data>
+</edge>
+<edge source="fossar" target="próprio">
+  <data key="d0">1</data>
+</edge>
+<edge source="sorte" target="graça">
+  <data key="d0">1</data>
+</edge>
+<edge source="tributo" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="conduto" target="pimenta">
+  <data key="d0">1</data>
+</edge>
+<edge source="elegante" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="tanta" target="tão">
+  <data key="d0">1</data>
+</edge>
+<edge source="tanta" target="abóbada">
+  <data key="d0">1</data>
+</edge>
+<edge source="diverso" target="tão">
+  <data key="d0">1</data>
+</edge>
+<edge source="acomodado" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="fresco" target="sadio">
+  <data key="d0">1</data>
+</edge>
+<edge source="sadio" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="sadio" target="quatro">
+  <data key="d0">1</data>
+</edge>
+<edge source="mamão" target="freqüente">
+  <data key="d0">1</data>
+</edge>
+<edge source="freqüente" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="vulgarmente" target="não">
+  <data key="d0">1</data>
+</edge>
+<edge source="vulgar" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="frio" target="fruita">
+  <data key="d0">1</data>
+</edge>
+<edge source="frio" target="refrescar">
+  <data key="d0">1</data>
+</edge>
+<edge source="merecer" target="nome">
+  <data key="d0">1</data>
+</edge>
+<edge source="nome" target="brio">
+  <data key="d0">1</data>
+</edge>
+<edge source="nome" target="engrandecer">
+  <data key="d0">1</data>
+</edge>
+<edge source="brio" target="ter">
+  <data key="d0">1</data>
+</edge>
+<edge source="pevide" target="mais">
+  <data key="d0">1</data>
+</edge>
+<edge source="rosado" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="cordial" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="mole" target="suave">
+  <data key="d0">1</data>
+</edge>
+<edge source="manjar" target="todo">
+  <data key="d0">1</data>
+</edge>
+<edge source="manjar" target="a">
+  <data key="d0">1</data>
+</edge>
+<edge source="engolir" target="ver">
+  <data key="d0">1</data>
+</edge>
+<edge source="ananás" target="rei">
+  <data key="d0">1</data>
+</edge>
+<edge source="rei" target="fruita">
+  <data key="d0">1</data>
+</edge>
+<edge source="rei" target="rainha">
+  <data key="d0">1</data>
+</edge>
+<edge source="capaz" target="vestir">
+  <data key="d0">1</data>
+</edge>
+<edge source="vestir" target="escarlata">
+  <data key="d0">1</data>
+</edge>
+<edge source="escarlata" target="majestade">
+  <data key="d0">1</data>
+</edge>
+<edge source="majestade" target="grato">
+  <data key="d0">1</data>
+</edge>
+<edge source="majestade" target="ter">
+  <data key="d0">1</data>
+</edge>
+<edge source="grato" target="ter">
+  <data key="d0">1</data>
+</edge>
+<edge source="império" target="gravidade">
+  <data key="d0">1</data>
+</edge>
+<edge source="gravidade" target="lograr">
+  <data key="d0">1</data>
+</edge>
+<edge source="lograr" target="verde">
+  <data key="d0">1</data>
+</edge>
+<edge source="verde" target="majestade">
+  <data key="d0">1</data>
+</edge>
+<edge source="verde" target="olho">
+  <data key="d0">1</data>
+</edge>
+<edge source="levantado" target="picante">
+  <data key="d0">1</data>
+</edge>
+<edge source="espinho" target="adornado">
+  <data key="d0">1</data>
+</edge>
+<edge source="espinho" target="rosa">
+  <data key="d0">1</data>
+</edge>
+<edge source="adornado" target="nos">
+  <data key="d0">1</data>
+</edge>
+<edge source="rainha" target="não">
+  <data key="d0">1</data>
+</edge>
+<edge source="haver" target="mundo">
+  <data key="d0">1</data>
+</edge>
+<edge source="espinha" target="pomo">
+  <data key="d0">1</data>
+</edge>
+<edge source="gente" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="gente" target="brasil">
+  <data key="d0">1</data>
+</edge>
+<edge source="pêssego" target="excelente">
+  <data key="d0">1</data>
+</edge>
+<edge source="gracioso" target="maior">
+  <data key="d0">1</data>
+</edge>
+<edge source="cheiroso" target="além">
+  <data key="d0">1</data>
+</edge>
+<edge source="mangar" target="mimosa">
+  <data key="d0">1</data>
+</edge>
+<edge source="mangar" target="belo">
+  <data key="d0">1</data>
+</edge>
+<edge source="mangar" target="que">
+  <data key="d0">1</data>
+</edge>
+<edge source="mimosa" target="salpicado">
+  <data key="d0">1</data>
+</edge>
+<edge source="salpicado" target="tingir">
+  <data key="d0">1</data>
+</edge>
+<edge source="tingir" target="ter">
+  <data key="d0">1</data>
+</edge>
+<edge source="famoso" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="famoso" target="que">
+  <data key="d0">1</data>
+</edge>
+<edge source="almíscar" target="oloroso">
+  <data key="d0">1</data>
+</edge>
+<edge source="oloroso" target="mato">
+  <data key="d0">1</data>
+</edge>
+<edge source="mato" target="querer">
+  <data key="d0">1</data>
+</edge>
+<edge source="mato" target="inculto">
+  <data key="d0">1</data>
+</edge>
+<edge source="cultura" target="duro">
+  <data key="d0">1</data>
+</edge>
+<edge source="cultura" target="oh">
+  <data key="d0">1</data>
+</edge>
+<edge source="duro" target="trato">
+  <data key="d0">1</data>
+</edge>
+<edge source="trato" target="que">
+  <data key="d0">1</data>
+</edge>
+<edge source="si" target="todo">
+  <data key="d0">1</data>
+</edge>
+<edge source="si" target="perfazer">
+  <data key="d0">1</data>
+</edge>
+<edge source="apurar" target="não">
+  <data key="d0">1</data>
+</edge>
+<edge source="dever" target="homem">
+  <data key="d0">1</data>
+</edge>
+<edge source="homem" target="cultura">
+  <data key="d0">1</data>
+</edge>
+<edge source="oh" target="galhardo">
+  <data key="d0">1</data>
+</edge>
+<edge source="soberano" target="ter">
+  <data key="d0">1</data>
+</edge>
+<edge source="soberano" target="indulto">
+  <data key="d0">1</data>
+</edge>
+<edge source="indústria" target="humano">
+  <data key="d0">1</data>
+</edge>
+<edge source="humano" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="ambrósia" target="a">
+  <data key="d0">1</data>
+</edge>
+<edge source="pôr" target="manjar">
+  <data key="d0">1</data>
+</edge>
+<edge source="pôr" target="nevado">
+  <data key="d0">1</data>
+</edge>
+<edge source="semelhança" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="alcançar" target="também">
+  <data key="d0">1</data>
+</edge>
+<edge source="inculto" target="soberano">
+  <data key="d0">1</data>
+</edge>
+<edge source="indulto" target="fazer">
+  <data key="d0">1</data>
+</edge>
+<edge source="mel" target="injusto">
+  <data key="d0">1</data>
+</edge>
+<edge source="injusto" target="agravo">
+  <data key="d0">1</data>
+</edge>
+<edge source="agravo" target="boca">
+  <data key="d0">1</data>
+</edge>
+<edge source="desfazer" target="doce">
+  <data key="d0">1</data>
+</edge>
+<edge source="desfazer" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="favo" target="outro">
+  <data key="d0">1</data>
+</edge>
+<edge source="bastar" target="ter">
+  <data key="d0">1</data>
+</edge>
+<edge source="descrever" target="vária">
+  <data key="d0">1</data>
+</edge>
+<edge source="vária" target="casto">
+  <data key="d0">1</data>
+</edge>
+<edge source="legume" target="plantar">
+  <data key="d0">1</data>
+</edge>
+<edge source="legume" target="parecer">
+  <data key="d0">1</data>
+</edge>
+<edge source="legume" target="dar">
+  <data key="d0">1</data>
+</edge>
+<edge source="plantar" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="plantar" target="fadiga">
+  <data key="d0">1</data>
+</edge>
+<edge source="duplicado" target="o">
+  <data key="d0">1</data>
+</edge>
+<edge source="branco" target="vermelho">
+  <data key="d0">1</data>
+</edge>
+<edge source="abundância" target="espelho">
+  <data key="d0">1</data>
+</edge>
+<edge source="espelho" target="cândido">
+  <data key="d0">1</data>
+</edge>
+<edge source="inhame" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="mentir" target="poder">
+  <data key="d0">1</data>
+</edge>
+<edge source="fome" target="mais">
+  <data key="d0">1</data>
+</edge>
+<edge source="faminto" target="batata">
+  <data key="d0">1</data>
+</edge>
+<edge source="batata" target="assar">
+  <data key="d0">1</data>
+</edge>
+<edge source="assar" target="cozer">
+  <data key="d0">1</data>
+</edge>
+<edge source="cozer" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="cozer" target="de">
+  <data key="d0">1</data>
+</edge>
+<edge source="rico" target="batatada">
+  <data key="d0">1</data>
+</edge>
+<edge source="batatada" target="nação">
+  <data key="d0">1</data>
+</edge>
+<edge source="nação" target="solicitado">
+  <data key="d0">1</data>
+</edge>
+<edge source="solicitado" target="cará">
+  <data key="d0">1</data>
+</edge>
+<edge source="cará" target="roxo">
+  <data key="d0">1</data>
+</edge>
+<edge source="roxo" target="estar">
+  <data key="d0">1</data>
+</edge>
+<edge source="roxo" target="modesto">
+  <data key="d0">1</data>
+</edge>
+<edge source="alvo" target="cor">
+  <data key="d0">1</data>
+</edge>
+<edge source="honesto" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="cobrir" target="roxo">
+  <data key="d0">1</data>
+</edge>
+<edge source="modesto" target="mandioca">
+  <data key="d0">1</data>
+</edge>
+<edge source="mandioca" target="tomé">
+  <data key="d0">1</data>
+</edge>
+<edge source="mandioca" target="tal">
+  <data key="d0">1</data>
+</edge>
+<edge source="tomé" target="sagrado">
+  <data key="d0">1</data>
+</edge>
+<edge source="sagrado" target="dar">
+  <data key="d0">1</data>
+</edge>
+<edge source="sagrado" target="virgem">
+  <data key="d0">1</data>
+</edge>
+<edge source="gentio" target="amado">
+  <data key="d0">1</data>
+</edge>
+<edge source="gentio" target="lísia">
+  <data key="d0">1</data>
+</edge>
+<edge source="amado" target="ter">
+  <data key="d0">1</data>
+</edge>
+<edge source="raiz" target="farinha">
+  <data key="d0">1</data>
+</edge>
+<edge source="oculto" target="sempre">
+  <data key="d0">1</data>
+</edge>
+<edge source="feliz" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="dificultar" target="parecer">
+  <data key="d0">1</data>
+</edge>
+<edge source="abraçar" target="seu">
+  <data key="d0">1</data>
+</edge>
+<edge source="atividade" target="farinha">
+  <data key="d0">1</data>
+</edge>
+<edge source="fácil" target="brevidade">
+  <data key="d0">1</data>
+</edge>
+<edge source="fácil" target="espiga">
+  <data key="d0">1</data>
+</edge>
+<edge source="brevidade" target="mesmo">
+  <data key="d0">1</data>
+</edge>
+<edge source="dia" target="trabalho">
+  <data key="d0">1</data>
+</edge>
+<edge source="arrancar" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="cuidar" target="beiju">
+  <data key="d0">1</data>
+</edge>
+<edge source="beiju" target="regalado">
+  <data key="d0">1</data>
+</edge>
+<edge source="tenro" target="curioso">
+  <data key="d0">1</data>
+</edge>
+<edge source="curioso" target="amigo">
+  <data key="d0">1</data>
+</edge>
+<edge source="trigo" target="aipim">
+  <data key="d0">1</data>
+</edge>
+<edge source="aipim" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="aparentar" target="coar">
+  <data key="d0">1</data>
+</edge>
+<edge source="coar" target="mandioca">
+  <data key="d0">1</data>
+</edge>
+<edge source="qualquer" target="cozido">
+  <data key="d0">1</data>
+</edge>
+<edge source="cozido" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="cozido" target="ter">
+  <data key="d0">1</data>
+</edge>
+<edge source="assado" target="castanho">
+  <data key="d0">1</data>
+</edge>
+<edge source="castanho" target="europa">
+  <data key="d0">1</data>
+</edge>
+<edge source="milho" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="milho" target="arroz">
+  <data key="d0">1</data>
+</edge>
+<edge source="fadiga" target="todo">
+  <data key="d0">1</data>
+</edge>
+<edge source="espiga" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="filho" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="mão" target="liberal">
+  <data key="d0">1</data>
+</edge>
+<edge source="mão" target="milho">
+  <data key="d0">1</data>
+</edge>
+<edge source="arroz" target="semeado">
+  <data key="d0">1</data>
+</edge>
+<edge source="semeado" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="multiplicado" target="calar">
+  <data key="d0">1</data>
+</edge>
+<edge source="calar" target="valença">
+  <data key="d0">1</data>
+</edge>
+<edge source="calar" target="orientar">
+  <data key="d0">1</data>
+</edge>
+<edge source="valença" target="estranho">
+  <data key="d0">1</data>
+</edge>
+<edge source="tributar" target="espanha">
+  <data key="d0">1</data>
+</edge>
+<edge source="orientar" target="comer">
+  <data key="d0">1</data>
+</edge>
+<edge source="comer" target="gentio">
+  <data key="d0">1</data>
+</edge>
+<edge source="lísia" target="gente">
+  <data key="d0">1</data>
+</edge>
+<edge source="substância" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="crescido" target="ter">
+  <data key="d0">1</data>
+</edge>
+<edge source="explicar" target="fruita">
+  <data key="d0">1</data>
+</edge>
+<edge source="ciumar" target="ter">
+  <data key="d0">1</data>
+</edge>
+<edge source="recopilar" target="brasil">
+  <data key="d0">1</data>
+</edge>
+<edge source="conter" target="invejar">
+  <data key="d0">1</data>
+</edge>
+<edge source="invejar" target="preferir">
+  <data key="d0">1</data>
+</edge>
+<edge source="preferir" target="todo">
+  <data key="d0">1</data>
+</edge>
+<edge source="perfazer" target="quatro">
+  <data key="d0">1</data>
+</edge>
+<edge source="quatro" target="encerrar">
+  <data key="d0">1</data>
+</edge>
+<edge source="quatro" target="a">
+  <data key="d0">1</data>
+</edge>
+<edge source="quatro" target="singular">
+  <data key="d0">1</data>
+</edge>
+<edge source="primeiro" target="a">
+  <data key="d0">1</data>
+</edge>
+<edge source="arvoredo" target="sempre">
+  <data key="d0">1</data>
+</edge>
+<edge source="arvoredo" target="açúcar">
+  <data key="d0">1</data>
+</edge>
+<edge source="ledo" target="ter">
+  <data key="d0">1</data>
+</edge>
+<edge source="ledo" target="mui">
+  <data key="d0">1</data>
+</edge>
+<edge source="segundo" target="a">
+  <data key="d0">1</data>
+</edge>
+<edge source="ar" target="puro">
+  <data key="d0">1</data>
+</edge>
+<edge source="ar" target="em">
+  <data key="d0">1</data>
+</edge>
+<edge source="agradável" target="seguro">
+  <data key="d0">1</data>
+</edge>
+<edge source="seguro" target="ter">
+  <data key="d0">1</data>
+</edge>
+<edge source="terceiro" target="a">
+  <data key="d0">1</data>
+</edge>
+<edge source="água" target="frio">
+  <data key="d0">1</data>
+</edge>
+<edge source="refrescar" target="peito">
+  <data key="d0">1</data>
+</edge>
+<edge source="peito" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="singular" target="arvoredo">
+  <data key="d0">1</data>
+</edge>
+<edge source="singular" target="mais">
+  <data key="d0">1</data>
+</edge>
+<edge source="aguar" target="ar">
+  <data key="d0">1</data>
+</edge>
+<edge source="vistoso" target="engenho">
+  <data key="d0">1</data>
+</edge>
+<edge source="engenho" target="famoso">
+  <data key="d0">1</data>
+</edge>
+<edge source="engenho" target="holanda">
+  <data key="d0">1</data>
+</edge>
+<edge source="fado" target="antigamente">
+  <data key="d0">1</data>
+</edge>
+<edge source="antigamente" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="pérfido" target="nocivo">
+  <data key="d0">1</data>
+</edge>
+<edge source="nocivo" target="o">
+  <data key="d0">1</data>
+</edge>
+<edge source="queimar" target="renascer">
+  <data key="d0">1</data>
+</edge>
+<edge source="renascer" target="fênix">
+  <data key="d0">1</data>
+</edge>
+<edge source="fênix" target="vivo">
+  <data key="d0">1</data>
+</edge>
+<edge source="fabricar" target="três">
+  <data key="d0">1</data>
+</edge>
+<edge source="fabricar" target="a">
+  <data key="d0">1</data>
+</edge>
+<edge source="três" target="capela">
+  <data key="d0">1</data>
+</edge>
+<edge source="capela" target="belo">
+  <data key="d0">1</data>
+</edge>
+<edge source="capela" target="ver">
+  <data key="d0">1</data>
+</edge>
+<edge source="capela" target="aqui">
+  <data key="d0">1</data>
+</edge>
+<edge source="esmerar" target="fortaleza">
+  <data key="d0">1</data>
+</edge>
+<edge source="fortaleza" target="tanta">
+  <data key="d0">1</data>
+</edge>
+<edge source="abóbada" target="forte">
+  <data key="d0">1</data>
+</edge>
+<edge source="forte" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="levantar" target="senhor">
+  <data key="d0">1</data>
+</edge>
+<edge source="senhor" target="neve">
+  <data key="d0">1</data>
+</edge>
+<edge source="neve" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="apelidar" target="renovar">
+  <data key="d0">1</data>
+</edge>
+<edge source="renovar" target="piedade">
+  <data key="d0">1</data>
+</edge>
+<edge source="piedade" target="esclarecido">
+  <data key="d0">1</data>
+</edge>
+<edge source="esclarecido" target="devoto">
+  <data key="d0">1</data>
+</edge>
+<edge source="devoto" target="sonho">
+  <data key="d0">1</data>
+</edge>
+<edge source="sonho" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="nevado" target="candor">
+  <data key="d0">1</data>
+</edge>
+<edge source="candor" target="mês">
+  <data key="d0">1</data>
+</edge>
+<edge source="agosto" target="outro">
+  <data key="d0">1</data>
+</edge>
+<edge source="ilustre" target="dedicar">
+  <data key="d0">1</data>
+</edge>
+<edge source="dedicar" target="pároco">
+  <data key="d0">1</data>
+</edge>
+<edge source="dedicar" target="conceição">
+  <data key="d0">1</data>
+</edge>
+<edge source="pároco" target="entender">
+  <data key="d0">1</data>
+</edge>
+<edge source="entender" target="edifício">
+  <data key="d0">1</data>
+</edge>
+<edge source="edifício" target="fazer">
+  <data key="d0">1</data>
+</edge>
+<edge source="agradecer" target="xavier">
+  <data key="d0">1</data>
+</edge>
+<edge source="xavier" target="ir">
+  <data key="d0">1</data>
+</edge>
+<edge source="sacro" target="alentar">
+  <data key="d0">1</data>
+</edge>
+<edge source="glória" target="igreja">
+  <data key="d0">1</data>
+</edge>
+<edge source="igreja" target="japão">
+  <data key="d0">1</data>
+</edge>
+<edge source="japão" target="portento">
+  <data key="d0">1</data>
+</edge>
+<edge source="portento" target="outro">
+  <data key="d0">1</data>
+</edge>
+<edge source="reconhecer" target="nome">
+  <data key="d0">1</data>
+</edge>
+<edge source="engrandecer" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="conceição" target="sagrado">
+  <data key="d0">1</data>
+</edge>
+<edge source="virgem" target="puro">
+  <data key="d0">1</data>
+</edge>
+<edge source="imaculado" target="ir">
+  <data key="d0">1</data>
+</edge>
+<edge source="mancha" target="lua">
+  <data key="d0">1</data>
+</edge>
+<edge source="lua" target="espinho">
+  <data key="d0">1</data>
+</edge>
+<edge source="tudo" target="quanto">
+  <data key="d0">1</data>
+</edge>
+<edge source="quanto" target="brasil">
+  <data key="d0">1</data>
+</edge>
+<edge source="apodo" target="se">
+  <data key="d0">1</data>
+</edge>
+<edge source="achar" target="sua">
+  <data key="d0">1</data>
+</edge>
+<edge source="chipre" target="desprezar">
+  <data key="d0">1</data>
+</edge>
+<edge source="maria" target="verdadeiro">
+  <data key="d0">1</data>
+</edge>
+<edge source="verdadeiro" target="outro">
+  <data key="d0">1</data>
+</edge>
+<edge source="vênus" target="melhor">
+  <data key="d0">1</data>
+</edge>
+</graph></graphml>

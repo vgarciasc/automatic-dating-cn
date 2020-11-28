@@ -1,0 +1,703 @@
+[
+    {
+        "author": "José de Anchieta",
+        "title": "Feitos de Mem de Sá",
+        "date": "1560 – 1562",
+        "file": "anchieta1560.txt",
+        "century": "16th Century",
+        "words": 27163
+    }, {
+        "author": "José de Anchieta",
+        "title": "Auto de Sao Lourenco",
+        "date": "1586",
+        "file": "anchieta1586.txt",
+        "century": "16th Century",
+        "words": 6896
+    }, {
+        "author": "Joao de Barros",
+        "title": "Gramática",
+        "date": "1540",
+        "file": "barros1540.txt",
+        "century": "16th Century",
+        "words": 51060
+    }, {
+        "author": "Pero Vaz de Caminha",
+        "title": "Carta a Manuel I",
+        "date": "1500",
+        "file": "caminha1500.txt",
+        "century": "16th Century",
+        "words": 7915
+    }, {
+        "author": "Luis de Camoes",
+        "title": "Os Lusíadas",
+        "date": "1572",
+        "file": "camoes1572.txt",
+        "century": "16th Century",
+        "words": 55474
+    }, {
+        "author": "Luís de Camoes",
+        "title": "Sonetos",
+        "date": "16th Century",
+        "file": "camoes16th.txt",
+        "century": "16th Century",
+        "words": 15198
+    }, {
+        "author": "Manuel Severim de Faria",
+        "title": "Discursos de Vários Políticos",
+        "date": "16th Century",
+        "file": "faria16th.txt",
+        "century": "16th Century",
+        "words": 50853
+    }, {
+        "author": "Pero de Magalhaes Gandavo",
+        "title": "História da Província Santa Cruz",
+        "date": "1576",
+        "file": "gandavo1576.txt",
+        "century": "16th Century",
+        "words": 21537
+    }, {
+        "author": "Francisco Guerreiro",
+        "title": "Itinerário da Viagem que Fez a Jerusalém o M.R.P.",
+        "date": "16th Century",
+        "file": "guerreiro16th.txt",
+        "century": "16th Century",
+        "words": 17304
+    }, {
+        "author": "Francisco de Holanda",
+        "title": "Da Pintura Antiga",
+        "date": "1548",
+        "file": "holanda1548.txt",
+        "century": "16th Century",
+        "words": 49038
+    }, {
+        "author": "Fernao Mendes Pinto",
+        "title": "Peregrinacao",
+        "date": "1510",
+        "file": "pinto1510.txt",
+        "century": "16th Century",
+        "words": 44212
+    }, {
+        "author": "Luis de Sousa",
+        "title": "A Vida de Frei Bartolomeu dos Mártires (Edited Orthography)",
+        "date": "1556",
+        "file": "sousa1556.txt",
+        "century": "16th Century",
+        "words": 52595
+    }, {
+        "author": "Gil Vicente",
+        "title": "Mixed Texts",
+        "date": "16th Century",
+        "file": "vicente16th.txt",
+        "century": "16th Century",
+        "words": 125944
+    }, {
+        "author": "Manuel Pires de Almeida",
+        "title": "Poesia e Pintura",
+        "date": "1633",
+        "file": "almeida1633.txt",
+        "century": "17th Century",
+        "words": 24763
+    }, {
+        "author": "Manuel de Almeida",
+        "title": "Vida de Takla Haymanot",
+        "date": "17th Century",
+        "file": "almeida17th.txt",
+        "century": "17th Century",
+        "words": 9157
+    }, {
+        "author": "Vicente Barbosa",
+        "title": "Compendio da Relaçam Que Veyo da India o Anno de 1691",
+        "date": "1691",
+        "file": "barbosa1691.txt",
+        "century": "17th Century",
+        "words": 9157
+    }, {
+        "author": "Antonio Brandao",
+        "title": "Monarchia Lusitana",
+        "date": "1632",
+        "file": "brandao1632.txt",
+        "century": "17th Century",
+        "words": 49938
+    }, {
+        "author": "José da Cunha Brochado",
+        "title": "Cartas",
+        "date": "17th Century",
+        "file": "brochado17th.txt",
+        "century": "17th Century",
+        "words": 31888
+    }, {
+        "author": "Antonio das Chagas",
+        "title": "Obras Espirituais II",
+        "date": "1687",
+        "file": "chagas1687.txt",
+        "century": "17th Century",
+        "words": 49603
+    }, {
+        "author": "Manuel da Costa",
+        "title": "A Arte de Furtar",
+        "date": "1652",
+        "file": "costa1652.txt",
+        "century": "17th Century",
+        "words": 51548
+    }, {
+        "author": "Manuel de Galhegos",
+        "title": "Gazeta",
+        "date": "1641 – 1647",
+        "file": "galhegos1641.txt",
+        "century": "17th Century",
+        "words": 25438
+    }, {
+        "author": "Francisco Rodrigues Lobo",
+        "title": "Corte da Aldeia e Noites de Inverno",
+        "date": "1619",
+        "file": "lobo1619.txt",
+        "century": "17th Century",
+        "words": 51830
+    }, {
+        "author": "Gregorio de Matos",
+        "title": "Mixed Texts (Part 1)",
+        "date": "17th Century",
+        "file": "matos17th1.txt",
+        "century": "17th Century",
+        "words": 58454
+    }, {
+        "author": "Gregorio de Matos",
+        "title": "Mixed Texts (Part 2)",
+        "date": "17th Century",
+        "file": "matos17th2.txt",
+        "century": "17th Century",
+        "words": 41488
+    }, {
+        "author": "Francisco Manuel de Melo",
+        "title": "Tácito Portugues",
+        "date": "1650",
+        "file": "melo1650.txt",
+        "century": "17th Century",
+        "words": 34077
+    }, {
+        "author": "Padre Antonio Vieira",
+        "title": "Sermao pelo Bom Sucesso das Armas de Portugal contra as de Holanda",
+        "date": "1640",
+        "file": "vieira1640.txt",
+        "century": "17th Century",
+        "words": 9145
+    }, {
+        "author": "Padre Antonio Vieira",
+        "title": "Sermao dos Bons Anos",
+        "date": "1642 – 1644",
+        "file": "vieira1642.txt",
+        "century": "17th Century",
+        "words": 8853
+    }, {
+        "author": "Padre Antonio Vieira",
+        "title": "Sermao da Sexagésima",
+        "date": "1655",
+        "file": "vieira1655.txt",
+        "century": "17th Century",
+        "words": 11442
+    }, {
+        "author": "Padre Antonio Vieira",
+        "title": "Sermao do Espírito Santo",
+        "date": "1657",
+        "file": "vieira1657.txt",
+        "century": "17th Century",
+        "words": 12139
+    }, {
+        "author": "Padre Antonio Vieira",
+        "title": "Cartas",
+        "date": "1646 – 1670",
+        "file": "vieira1670.txt",
+        "century": "17th Century",
+        "words": 52391
+    }, {
+        "author": "Padre Antonio Vieira",
+        "title": "Cartas",
+        "date": "17th Century",
+        "file": "vieira17th.txt",
+        "century": "17th Century",
+        "words": 52391
+    }, {
+        "author": "Matias Aires",
+        "title": "Reflexoes Sobre a Vaidade dos Homens",
+        "date": "1752",
+        "file": "aires1752.txt",
+        "century": "18th Century",
+        "words": 54942
+    }, {
+        "author": "Manoel Botelho de Oliveira",
+        "title": "À Ilha da Maré",
+        "date": "1705",
+        "file": "botelho1705.txt",
+        "century": "18th Century",
+        "words": 1852
+    }, {
+        "author": "Pedro Correia Garcao",
+        "title": "Obras Completas",
+        "date": "18th Century",
+        "file": "garcao18th.txt",
+        "century": "18th Century",
+        "words": 24562
+    }, {
+        "author": "Teresa Margarida da Silva e Ortas",
+        "title": "Aventuras de Diófanes",
+        "date": "1777",
+        "file": "ortas1777.txt",
+        "century": "18th Century",
+        "words": 67649
+    }, {
+        "author": "António Nunes Ribeiro Sanches",
+        "title": "Cartas Sobre a Educacao da Mocidade",
+        "date": "1760",
+        "file": "sanches1760.txt",
+        "century": "18th Century",
+        "words": 56017
+    }, {
+        "author": "Antonio José da Silva",
+        "title": "Vida do Grande D. Quixote de La Mancha e do Gordo Sancho Panca",
+        "date": "1733",
+        "file": "silva1733.txt",
+        "century": "18th Century",
+        "words": 20055
+    }, {
+        "author": "Antonio José da Silva",
+        "title": "Esopaida ou Vida de Esopo",
+        "date": "1734",
+        "file": "silva1734.txt",
+        "century": "18th Century",
+        "words": 20455
+    }, {
+        "author": "Antonio José da Silva",
+        "title": "Os Encantos de Medeia",
+        "date": "1735",
+        "file": "silva1735.txt",
+        "century": "18th Century",
+        "words": 16685
+    }, {
+        "author": "Antonio José da Silva",
+        "title": "Anfitriao ou Jupiter e Alcmena",
+        "date": "1736",
+        "file": "silva1736.txt",
+        "century": "18th Century",
+        "words": 25042
+    }, {
+        "author": "Antonio José da Silva",
+        "title": "O Labirinto de Creta",
+        "date": "1736",
+        "file": "silva1736b.txt",
+        "century": "18th Century",
+        "words": 30050
+    }, {
+        "author": "Antonio José da Silva",
+        "title": "As Verdades de Proteu",
+        "date": "1737",
+        "file": "silva1737.txt",
+        "century": "18th Century",
+        "words": 16153
+    }, {
+        "author": "Antonio José da Silva",
+        "title": "Guerras do Alecrim e da Manjerona",
+        "date": "1737",
+        "file": "silva1737b.txt",
+        "century": "18th Century",
+        "words": 23096
+    }, {
+        "author": "Antonio José da Silva",
+        "title": "Precipício de Faetonte",
+        "date": "1738",
+        "file": "silva1738.txt",
+        "century": "18th Century",
+        "words": 21248
+    }, {
+        "author": "Luis Antonio Verney",
+        "title": "O Verdadeiro Método de Estudar",
+        "date": "1746",
+        "file": "verney1746.txt",
+        "century": "18th Century",
+        "words": 47818
+    }, {
+        "author": "Casimiro de Abreu",
+        "title": "Carolina",
+        "date": "1856",
+        "file": "abreu1856.txt",
+        "century": "19th Century",
+        "words": 5275
+    }, {
+        "author": "José de Alencar",
+        "title": "O Guarani",
+        "date": "1857",
+        "file": "alencar1857.txt",
+        "century": "19th Century",
+        "words": 109296
+    }, {
+        "author": "José de Alencar",
+        "title": "Lucíola",
+        "date": "1862",
+        "file": "alencar1862.txt",
+        "century": "19th Century",
+        "words": 46302
+    }, {
+        "author": "José de Alencar",
+        "title": "Iracema",
+        "date": "1865",
+        "file": "alencar1865.txt",
+        "century": "19th Century",
+        "words": 29639
+    }, {
+        "author": "José de Alencar",
+        "title": "Senhora",
+        "date": "1875",
+        "file": "alencar1875.txt",
+        "century": "19th Century",
+        "words": 78378
+    }, {
+        "author": "Manuel Antonio de Almeida",
+        "title": "Memórias de um Sargento de Milícias",
+        "date": "1852",
+        "file": "almeida1852.txt",
+        "century": "19th Century",
+        "words": 60982
+    }, {
+        "author": "Castro Alves",
+        "title": "Espumas Flutuantes",
+        "date": "1870",
+        "file": "alves1870.txt",
+        "century": "19th Century",
+        "words": 20016
+    }, {
+        "author": "Álvares de Azevedo",
+        "title": "Noite na Taverna",
+        "date": "1855",
+        "file": "azevedo1855.txt",
+        "century": "19th Century",
+        "words": 18112
+    }, {
+        "author": "Aluísio Azevedo",
+        "title": "A Condeca Vésper ou Memórias de um Condenado",
+        "date": "1882",
+        "file": "azevedo1882.txt",
+        "century": "19th Century",
+        "words": 107578
+    }, {
+        "author": "Aluisio Azevedo",
+        "title": "Girandula de Amores ou Mistério da Tijuca",
+        "date": "1882",
+        "file": "azevedo1882b.txt",
+        "century": "19th Century",
+        "words": 95779
+    }, {
+        "author": "Aluisio Azevedo",
+        "title": "Casa de Pensao",
+        "date": "1884",
+        "file": "azevedo1884.txt",
+        "century": "19th Century",
+        "words": 95873
+    }, {
+        "author": "Aluisio Azevedo",
+        "title": "Filomena Borges",
+        "date": "1884",
+        "file": "azevedo1884b.txt",
+        "century": "19th Century",
+        "words": 53917
+    }, {
+        "author": "Aluisio Azevedo",
+        "title": "O Cortico",
+        "date": "1890",
+        "file": "azevedo1890.txt",
+        "century": "19th Century",
+        "words": 81771
+    }, {
+        "author": "Aluisio Azevedo",
+        "title": "A Mortalha de Alzira",
+        "date": "1894",
+        "file": "azevedo1894.txt",
+        "century": "19th Century",
+        "words": 51573
+    }, {
+        "author": "Aluisio Azevedo",
+        "title": "O Livro de uma Sogra",
+        "date": "1895",
+        "file": "azevedo1895.txt",
+        "century": "19th Century",
+        "words": 53909
+    }, {
+        "author": "Adolfo Caminha",
+        "title": "A Normalista",
+        "date": "1893",
+        "file": "caminha1893.txt",
+        "century": "19th Century",
+        "words": 60880
+    }, {
+        "author": "Adolfo Caminha",
+        "title": "No País dos Ianques",
+        "date": "1894",
+        "file": "caminha1894.txt",
+        "century": "19th Century",
+        "words": 53335
+    }, {
+        "author": "Adolfo Caminha",
+        "title": "Bom Crioulo",
+        "date": "1895",
+        "file": "caminha1895.txt",
+        "century": "19th Century",
+        "words": 36176
+    }, {
+        "author": "Adolfo Caminha",
+        "title": "Tentacao",
+        "date": "1896",
+        "file": "caminha1896.txt",
+        "century": "19th Century",
+        "words": 40734
+    }, {
+        "author": "Almeida Garrett",
+        "title": "Viagens na Minha Terra",
+        "date": "1846",
+        "file": "garrett1846.txt",
+        "century": "19th Century",
+        "words": 69641
+    }, {
+        "author": "Bernardo Guimaraes",
+        "title": "A Escrava Isaura",
+        "date": "1875",
+        "file": "guimaraes1875.txt",
+        "century": "19th Century",
+        "words": 5335
+    }, {
+        "author": "José Agostinho de Macedo",
+        "title": "Sermao Contra o Filosofismo do Séeculo XIX",
+        "date": "1811",
+        "file": "macedo1811.txt",
+        "century": "19th Century",
+        "words": 10279
+    }, {
+        "author": "Joaquim Manuel de Macedo",
+        "title": "A Moreninha",
+        "date": "1844",
+        "file": "macedo1844.txt",
+        "century": "19th Century",
+        "words": 47221
+    }, {
+        "author": "Joaquim Manuel de Macedo",
+        "title": "Memórias da Rua do Ouvidor",
+        "date": "1878",
+        "file": "macedo1878.txt",
+        "century": "19th Century",
+        "words": 60088
+    }, {
+        "author": "Machado de Assis",
+        "title": "Helena",
+        "date": "1876",
+        "file": "machado1876.txt",
+        "century": "19th Century",
+        "words": 56735
+    }, {
+        "author": "Machado de Assis",
+        "title": "Iaiá Garcia",
+        "date": "1878",
+        "file": "machado1878.txt",
+        "century": "19th Century",
+        "words": 58661
+    }, {
+        "author": "Machado de Assis",
+        "title": "Memórias Póstumas de Brás Cubas",
+        "date": "1881",
+        "file": "machado1881.txt",
+        "century": "19th Century",
+        "words": 61893
+    }, {
+        "author": "Machado de Assis",
+        "title": "Casa Velha",
+        "date": "1885",
+        "file": "machado1885.txt",
+        "century": "19th Century",
+        "words": 22616
+    }, {
+        "author": "Machado de Assis",
+        "title": "Quincas Borba",
+        "date": "1891",
+        "file": "machado1891.txt",
+        "century": "19th Century",
+        "words": 77979
+    }, {
+        "author": "Machado de Assis",
+        "title": "Dom Casmurro",
+        "date": "1899",
+        "file": "machado1899.txt",
+        "century": "19th Century",
+        "words": 67001
+    }, {
+        "author": "Joaquim Nabuco",
+        "title": "O Abolicionismo",
+        "date": "1883",
+        "file": "nabuco1883.txt",
+        "century": "19th Century",
+        "words": 63837
+    }, {
+        "author": "Raul Pompeia",
+        "title": "O Ateneu",
+        "date": "1888",
+        "file": "pompeia1888.txt",
+        "century": "19th Century",
+        "words": 62219
+    }, {
+        "author": "Eca de Queiroz",
+        "title": "O Crime do Padre Amaro",
+        "date": "1875",
+        "file": "queiroz1875.txt",
+        "century": "19th Century",
+        "words": 142527
+    }, {
+        "author": "Eca de Queiroz",
+        "title": "O Primo Basílio",
+        "date": "1878",
+        "file": "queiroz1878.txt",
+        "century": "19th Century",
+        "words": 122859
+    }, {
+        "author": "Eca de Queiroz",
+        "title": "A Relíquia",
+        "date": "1887",
+        "file": "queiroz1887.txt",
+        "century": "19th Century",
+        "words": 86614
+    }, {
+        "author": "Eca de Queiroz",
+        "title": "Os Maias",
+        "date": "1888",
+        "file": "queiroz1888.txt",
+        "century": "19th Century",
+        "words": 218011
+    }, {
+        "author": "Eca de Queiroz",
+        "title": "A Ilustre Casa de Ramires",
+        "date": "1900",
+        "file": "queiroz1900.txt",
+        "century": "19th Century",
+        "words": 106258
+    }, {
+        "author": "Visconde de Taunay",
+        "title": "Inocencia",
+        "date": "1872",
+        "file": "taunay1872.txt",
+        "century": "19th Century",
+        "words": 51472
+    }, {
+        "author": "Julia Lopes de Almeida",
+        "title": "A Falencia",
+        "date": "1901",
+        "file": "almeida1901.txt",
+        "century": "20th Century",
+        "words": 73935
+    }, {
+        "author": "Julia Lopes de Almeida",
+        "title": "A Intrusa",
+        "date": "1905",
+        "file": "almeida1905.txt",
+        "century": "20th Century",
+        "words": 55344
+    }, {
+        "author": "Fialho de Almeida",
+        "title": "Aves Migradoras",
+        "date": "1921",
+        "file": "almeida1921.txt",
+        "century": "20th Century",
+        "words": 163602
+    }, {
+        "author": "Amadeu Amaral",
+        "title": "A Pulseira de Ferro",
+        "date": "1920",
+        "file": "amaral1920.txt",
+        "century": "20th Century",
+        "words": 13542
+    }, {
+        "author": "Mário de Andrade",
+        "title": "Macunaíma",
+        "date": "1928",
+        "file": "andrade1928.txt",
+        "century": "20th Century",
+        "words": 43720
+    }, {
+        "author": "Lima Barreto",
+        "title": "O Triste Fim de Policarpo Quaresma",
+        "date": "1915",
+        "file": "barreto1915.txt",
+        "century": "20th Century",
+        "words": 66829
+    }, {
+        "author": "Lima Barreto",
+        "title": "O Cemitério dos Vivos",
+        "date": "1920",
+        "file": "barreto1920.txt",
+        "century": "20th Century",
+        "words": 48286
+    }, {
+        "author": "Lima Barreto",
+        "title": "Clara dos Anjos",
+        "date": "1948",
+        "file": "barreto1948.txt",
+        "century": "20th Century",
+        "words": 50102
+    }, {
+        "author": "Euclídes da Cunha",
+        "title": "Os Sertoes",
+        "date": "1902",
+        "file": "cunha1902.txt",
+        "century": "20th Century",
+        "words": 155749
+    }, {
+        "author": "Santos Dumont",
+        "title": "O Que Eu Vi, o Que Nós Veremos",
+        "date": "1918",
+        "file": "dumont1918.txt",
+        "century": "20th Century",
+        "words": 12630
+    }, {
+        "author": "Manoel de Oliveira Lima",
+        "title": "O Movimento da Independencia",
+        "date": "1923",
+        "file": "lima1923.txt",
+        "century": "20th Century",
+        "words": 166923
+    }, {
+        "author": "Machado de Assis",
+        "title": "Esaú e Jacó",
+        "date": "1904",
+        "file": "machado1904.txt",
+        "century": "20th Century",
+        "words": 72711
+    }, {
+        "author": "Machado de Assis",
+        "title": "Memorial de Aires",
+        "date": "1908",
+        "file": "machado1908.txt",
+        "century": "20th Century",
+        "words": 51375
+    }, {
+        "author": "Antonio de Alcantara Machado",
+        "title": "Brás, Bixiga e Barra Funda",
+        "date": "1927",
+        "file": "machado1927.txt",
+        "century": "20th Century",
+        "words": 10474
+    }, {
+        "author": "Antonio de Alcantara Machado",
+        "title": "Mana Maria",
+        "date": "1936",
+        "file": "machado1936.txt",
+        "century": "20th Century",
+        "words": 17830
+    }, {
+        "author": "Joao do Rio",
+        "title": "A Profissao de Jacques Pedreira",
+        "date": "1911",
+        "file": "rio1911.txt",
+        "century": "20th Century",
+        "words": 60170
+    }, {
+        "author": "Lindolfo Rocha",
+        "title": "Maria Dusá",
+        "date": "1910",
+        "file": "rocha1910.txt",
+        "century": "20th Century",
+        "words": 69474
+    }
+]
