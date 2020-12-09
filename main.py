@@ -79,7 +79,7 @@ def generate_network_metrics_file(in_data_filename, out_data_filename, data_path
 		data["density"].append(nx.density(G))
 		data["assortativity_coefficient"].append(nx.degree_assortativity_coefficient(G, weight='weight'))
 		data["average_shortest_path_length"].append(nx.average_shortest_path_length(G, weight='weight'))
-		data["diameter"].append(nx.diameter(G))
+		data["diameter"].append(nx.diameter(G.subgraph(max(nx.strongly_connected_components(G), key=len))))
 		data["transitivity"].append(nx.transitivity(G))
 		data["mean_degree"].append(np.mean([val for key, val in G.degree(weight='weight')]))
 
