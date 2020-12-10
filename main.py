@@ -43,7 +43,7 @@ def generate_baseline_file(in_data_filename, out_data_filename, data_path, verbo
 	data_df.to_csv(out_data_filename, sep=';', quoting=QUOTE_ALL)
 
 def generate_network_metrics_file(in_data_filename, out_data_filename, data_path, graph_path, verbose=True):
-    metadata_df = pd.read_csv(in_data_filename, sep=";", quotechar='"')
+	metadata_df = pd.read_csv(in_data_filename, sep=";", quotechar='"')
 	data = {
 		"number_of_nodes": [],
 		"normalized_number_of_nodes": [],
@@ -65,35 +65,35 @@ def generate_network_metrics_file(in_data_filename, out_data_filename, data_path
 		print("generating metrics file...")
 
 	for index, row in metadata_df.iterrows():
-        filename = join(graph_path, row['filename'].split(".")[0] + ".graphml")
-        graph = ig.Graph.Read_GraphML(filename)
+		filename = join(graph_path, row['filename'].split(".")[0] + ".graphml")
+		graph = ig.Graph.Read_GraphML(filename)
 
 		if verbose:
 			print("\t--------")
 			print("\t", (index + 1), "/", len(metadata_df), ": filename", filename)
 
-        data["number_of_nodes"].append(graph.vcount())
-        data["normalized_number_of_nodes"].append(graph.vcount() / row['words'])
-        data["number_of_edges"].append(graph.ecount())
-        data["normalized_number_of_edges"].append(graph.ecount() / row['words'])
-        data["density"].append(graph.density())
-        data["assortativity_coefficient"].append(graph.assortativity_degree(graph.strength()))
-        data["average_shortest_path_length"].append(graph.average_path_length())
-        data["diameter"].append(graph.diameter())
-        data["transitivity"].append(graph.transitivity_undirected())
-        data["mean_degree"].append(np.mean([d for d in graph.strength()]))
+		data["number_of_nodes"].append(graph.vcount())
+		data["normalized_number_of_nodes"].append(graph.vcount() / row['words'])
+		data["number_of_edges"].append(graph.ecount())
+		data["normalized_number_of_edges"].append(graph.ecount() / row['words'])
+		data["density"].append(graph.density())
+		data["assortativity_coefficient"].append(graph.assortativity_degree(graph.strength()))
+		data["average_shortest_path_length"].append(graph.average_path_length())
+		data["diameter"].append(graph.diameter())
+		data["transitivity"].append(graph.transitivity_undirected())
+		data["mean_degree"].append(np.mean([d for d in graph.strength()]))
 
-        clustering = graph.transitivity_local_undirected(weights = graph.es["weight"])
-        data["mean_clustering"].append(np.mean(clustering))
-        data["max_clustering"].append(np.max(clustering))
+		clustering = graph.transitivity_local_undirected(weights = graph.es["weight"])
+		data["mean_clustering"].append(np.mean(clustering))
+		data["max_clustering"].append(np.max(clustering))
 
-        betweenness_centrality = graph.betweenness(weights = graph.es["weight"])
-        data["mean_betweenness_centrality"].append(np.mean(betweenness_centrality))
-        data["max_betweenness_centrality"].append(np.max(betweenness_centrality))
-        
-        end = datetime.datetime.now()
-        if verbose:
-            print("\ttime elapsed:", end - start)
+		betweenness_centrality = graph.betweenness(weights = graph.es["weight"])
+		data["mean_betweenness_centrality"].append(np.mean(betweenness_centrality))
+		data["max_betweenness_centrality"].append(np.max(betweenness_centrality))
+		
+		end = datetime.datetime.now()
+		if verbose:
+			print("\ttime elapsed:", end - start)
 
 	for key, val in data.items():
 		if len(val) > 0:
