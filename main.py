@@ -1,5 +1,6 @@
 import networkx as nx
 import numpy as np
+import igraph as ig
 import matplotlib.pyplot as plt
 import pandas as pd
 import pdb
@@ -41,9 +42,8 @@ def generate_baseline_file(in_data_filename, out_data_filename, data_path, verbo
 		data_df[key] = val
 	data_df.to_csv(out_data_filename, sep=';', quoting=QUOTE_ALL)
 
-def generate_network_metrics_file(in_data_filename, out_data_filename, data_path, verbose=True):
-	metadata_df = pd.read_csv(in_data_filename, sep=";", quotechar='"')
-
+def generate_network_metrics_file(in_data_filename, out_data_filename, data_path, graph_path, verbose=True):
+    metadata_df = pd.read_csv(in_data_filename, sep=";", quotechar='"')
 	data = {
 		"number_of_nodes": [],
 		"normalized_number_of_nodes": [],
@@ -65,31 +65,35 @@ def generate_network_metrics_file(in_data_filename, out_data_filename, data_path
 		print("generating metrics file...")
 
 	for index, row in metadata_df.iterrows():
-		filename = join(data_path, row['filename'])
-		G, word_counter = r.read_colonia_file(filename)
+        filename = join(graph_path, row['filename'].split(".")[0] + ".graphml")
+        graph = ig.Graph.Read_GraphML(filename)
 
 		if verbose:
 			print("\t--------")
 			print("\t", (index + 1), "/", len(metadata_df), ": filename", filename)
 
-		data["number_of_nodes"].append(G.number_of_nodes())
-		data["normalized_number_of_nodes"].append(G.number_of_nodes() / row['words'])
-		data["number_of_edges"].append(G.number_of_edges())
-		data["normalized_number_of_edges"].append(G.number_of_edges() / (row['words'] * row['words'] / 2))
-		data["density"].append(nx.density(G))
-		data["assortativity_coefficient"].append(nx.degree_assortativity_coefficient(G, weight='weight'))
-		data["average_shortest_path_length"].append(nx.average_shortest_path_length(G, weight='weight'))
-		data["diameter"].append(nx.diameter(G.subgraph(max(nx.strongly_connected_components(G), key=len))))
-		data["transitivity"].append(nx.transitivity(G))
-		data["mean_degree"].append(np.mean([val for key, val in G.degree(weight='weight')]))
+        data["number_of_nodes"].append(graph.vcount())
+        data["normalized_number_of_nodes"].append(graph.vcount() / row['words'])
+        data["number_of_edges"].append(graph.ecount())
+        data["normalized_number_of_edges"].append(graph.ecount() / row['words'])
+        data["density"].append(graph.density())
+        data["assortativity_coefficient"].append(graph.assortativity_degree(graph.strength()))
+        data["average_shortest_path_length"].append(graph.average_path_length())
+        data["diameter"].append(graph.diameter())
+        data["transitivity"].append(graph.transitivity_undirected())
+        data["mean_degree"].append(np.mean([d for d in graph.strength()]))
 
-		clustering = [val for key, val in nx.clustering(G, weight='weight').items()]
-		data["mean_clustering"].append(np.mean(clustering))
-		data["max_clustering"].append(np.max(clustering))
+        clustering = graph.transitivity_local_undirected(weights = graph.es["weight"])
+        data["mean_clustering"].append(np.mean(clustering))
+        data["max_clustering"].append(np.max(clustering))
 
-		betweenness_centrality = [val for key, val in nx.betweenness_centrality(G).items()]
-		data["mean_betweenness_centrality"].append(np.mean(betweenness_centrality))
-		data["max_betweenness_centrality"].append(np.max(betweenness_centrality))
+        betweenness_centrality = graph.betweenness(weights = graph.es["weight"])
+        data["mean_betweenness_centrality"].append(np.mean(betweenness_centrality))
+        data["max_betweenness_centrality"].append(np.max(betweenness_centrality))
+        
+        end = datetime.datetime.now()
+        if verbose:
+            print("\ttime elapsed:", end - start)
 
 	for key, val in data.items():
 		if len(val) > 0:
@@ -126,12 +130,13 @@ if __name__ == '__main__':
 		network_metrics_filename = "network_metrics.csv"
 
 		data_path = "data/txt_colonia/"
+		graph_path = "data/gml_colonia/"
 		rank_len = int(flag_2)
 
 		csc.generate_lemmarank_file(metadata_filename, lemmarank_data_filename, data_path, rank_len, csc.extract_most_closeness)
 		csc.generate_similarity_file(metadata_filename, lemmarank_data_filename, similarity_data_filename, data_path, \
 			[], rank_len, csc.jaccard_similarity)
-		generate_network_metrics_file(similarity_data_filename, network_metrics_filename, data_path)
+		generate_network_metrics_file(similarity_data_filename, network_metrics_filename, data_path, graph_path)
 
 	else:
 		print("Incorrect usage detected. Use one of the following patterns:")
