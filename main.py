@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import pdb
 import sys
+import datetime
 
 from os import listdir
 from os.path import join
@@ -67,6 +68,7 @@ def generate_network_metrics_file(in_data_filename, out_data_filename, data_path
 	for index, row in metadata_df.iterrows():
 		filename = join(graph_path, row['filename'].split(".")[0] + ".graphml")
 		graph = ig.Graph.Read_GraphML(filename)
+		start = datetime.datetime.now()
 
 		if verbose:
 			print("\t--------")
