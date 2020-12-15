@@ -13,7 +13,9 @@ from csv import QUOTE_ALL
 # STOP_WORD_LEMMAS = []
 
 # aggressive stopword removal
-STOP_WORD_GROUPS = ["PRP", "VIRG", "SENT", "PR", "CONJ", "DET", "QUOTE", "PRP+DET", "CARD"]
+STOP_WORD_GROUPS = ["PRP", "VIRG", "SENT", "PR", "CONJ", "DET", "QUOTE", "PRP+DET", "CARD", \
+	"CODE", "ID", "D-F", "P", "D", ",", "CONJS", "C", "NEG", "PONFP", "P+D", "D-UM-F", \
+	"D-UM", "PRO", "CL", ".", "P+D-F-P", "P+D-F", "PRO$-F", "PRO$"]
 STOP_WORD_LEMMAS = ["<unknown>"]
 
 def add_node(graph, word):
@@ -56,3 +58,35 @@ def read_colonia_file(filename):
 			last_word = word
 
 	return G, word_counter
+
+def read_tychobrahe_file(filename):
+	file = open(filename, 'r', encoding="utf-8") 
+
+	G = nx.DiGraph()
+	word_counter = Counter()
+	last_word = None
+
+	for line in file.readlines() : 
+		# Text lines have the format 'word \t syntactic group \t lemma'
+		# Other lines indicate sentences, paragraphs, etc. These are ignored
+		parsed_line = line.strip().split(" ")
+
+		for elem in parsed_line:
+			splitted = elem.split("/")
+			if len(splitted) > 1:
+				word, pos = splitted[0], splitted[1]
+
+				if pos not in STOP_WORD_GROUPS:
+					lemma = word.lower()
+					word = lemma
+					word_counter[word] += 1
+
+					add_node(G, word)
+					add_edge(G, last_word, word)
+					
+					last_word = word
+
+	return G, word_counter
+
+if __name__ == '__main__':
+	read_tychobrahe_file("data/tycho_brahe/a_001_pos.txt")

@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import networkx as nx
 import numpy as np
 import igraph as ig
@@ -43,6 +45,22 @@ def generate_baseline_file(in_data_filename, out_data_filename, data_path, verbo
 		data_df[key] = val
 	data_df.to_csv(out_data_filename, sep=';', quoting=QUOTE_ALL)
 
+def generate_graphs_file(in_data_filename, data_path, graph_path, read_fn=r.read_colonia_file, verbose=True):
+	data_df = pd.read_csv(in_data_filename, sep=";", quotechar='"')
+
+	if verbose:
+		print("generating graphs file...")
+
+	for index, row in data_df.iterrows():
+		filename = join(data_path, row['filename'])
+		G, word_counter = read_fn(filename)
+
+		if verbose:
+			print("\t--------")
+			print("\t", (index + 1), "/", len(data_df), ": filename", filename)
+
+		nx.write_gml(G, join(graph_path, row['filename'].split(".")[0] + ".gml"))
+
 def generate_network_metrics_file(in_data_filename, out_data_filename, data_path, graph_path, verbose=True):
 	metadata_df = pd.read_csv(in_data_filename, sep=";", quotechar='"')
 	data = {
@@ -64,10 +82,11 @@ def generate_network_metrics_file(in_data_filename, out_data_filename, data_path
 
 	if verbose:
 		print("generating metrics file...")
+		total_time = datetime.datetime.now()
 
 	for index, row in metadata_df.iterrows():
-		filename = join(graph_path, row['filename'].split(".")[0] + ".graphml")
-		graph = ig.Graph.Read_GraphML(filename)
+		filename = join(graph_path, row['filename'].split(".")[0] + ".gml")
+		graph = ig.Graph.Read_GML(filename)
 		start = datetime.datetime.now()
 
 		if verbose:
@@ -102,7 +121,19 @@ def generate_network_metrics_file(in_data_filename, out_data_filename, data_path
 			metadata_df[key] = val
 	metadata_df.to_csv(out_data_filename, sep=';', quoting=QUOTE_ALL)
 
+	if verbose:
+		print("total_time:", (datetime.datetime.now()- total_time))
+
 if __name__ == '__main__':
+	colonia_metadata_filename = "data/colonia_metadata.csv"
+	tychobrahe_metadata_filename = "data/tychobrahe_metadata.csv"
+	lemmarank_data_filename = "data/lemmaranks.csv"
+	similarity_data_filename = "data/century_similarities.csv"
+	network_metrics_filename = "data/network/network_metrics.csv"
+	baseline_data_filename = "data/baseline/baseline_data.csv"
+
+	graph_path = "data/graphs/"
+
 	flag_1 = None
 	flag_2 = None
 
@@ -111,34 +142,25 @@ if __name__ == '__main__':
 	if len(sys.argv) > 2:
 		flag_2 = sys.argv[2]
 
-	if flag_1 == "--baseline":
-		metadata_filename = "colonia_metadata.csv"
-		lemmarank_data_filename = "lemmaranks.csv"
-		similarity_data_filename = "century_similarities.csv"
-		baseline_data_filename = "baseline_data.csv"
+	if flag_1 == "--graphs":
+		generate_graphs_file(tychobrahe_metadata_filename, "data/txt_tychobrahe", graph_path, read_fn = r.read_tychobrahe_file)
+		generate_graphs_file(colonia_metadata_filename, "data/txt_colonia", graph_path, read_fn = r.read_colonia_file)
 
-		data_path = "data/txt_colonia/"
+	elif flag_1 == "--baseline":
 		rank_len = int(flag_2)
 
-		csc.generate_lemmarank_file(metadata_filename, lemmarank_data_filename, data_path, rank_len, csc.extract_most_freq)
-		csc.generate_similarity_file(metadata_filename, lemmarank_data_filename, similarity_data_filename, data_path, \
+		csc.generate_lemmarank_file(colonia_metadata_filename, lemmarank_data_filename, "data/txt_colonia", rank_len, csc.extract_most_freq)
+		csc.generate_similarity_file(colonia_metadata_filename, lemmarank_data_filename, similarity_data_filename, "data/txt_colonia", \
 			[], rank_len, csc.jaccard_similarity)
-		generate_baseline_file(similarity_data_filename, baseline_data_filename, data_path)
+		generate_baseline_file(similarity_data_filename, baseline_data_filename, "data/txt_colonia")
 
 	elif flag_1 == "--network":
-		metadata_filename = "colonia_metadata.csv"
-		lemmarank_data_filename = "lemmaranks.csv"
-		similarity_data_filename = "century_similarities.csv"
-		network_metrics_filename = "network_metrics.csv"
-
-		data_path = "data/txt_colonia/"
-		graph_path = "data/gml_colonia/"
 		rank_len = int(flag_2)
 
-		csc.generate_lemmarank_file(metadata_filename, lemmarank_data_filename, data_path, rank_len, csc.extract_most_closeness)
-		csc.generate_similarity_file(metadata_filename, lemmarank_data_filename, similarity_data_filename, data_path, \
+		csc.generate_lemmarank_file(colonia_metadata_filename, lemmarank_data_filename, "data/txt_colonia", rank_len, csc.extract_most_closeness)
+		csc.generate_similarity_file(colonia_metadata_filename, lemmarank_data_filename, similarity_data_filename, "data/txt_colonia", \
 			[], rank_len, csc.jaccard_similarity)
-		generate_network_metrics_file(similarity_data_filename, network_metrics_filename, data_path, graph_path)
+		generate_network_metrics_file(similarity_data_filename, network_metrics_filename, "data/txt_colonia", graph_path)
 
 	else:
 		print("Incorrect usage detected. Use one of the following patterns:")
