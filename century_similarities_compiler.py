@@ -2,6 +2,7 @@ import networkx as nx
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+import igraph as ig
 import pdb
 import json
 
@@ -51,6 +52,66 @@ def generate_lemmarank_file(in_data_filename, out_data_filename, data_path, rank
 	for key, val in data.items():
 		metadata_df[key] = val
 	metadata_df.to_csv(out_data_filename, sep=';', quoting=QUOTE_ALL)
+
+def get_similarity_books(metadata_filename, lemmarank_filename, data_path, test_filenames, \
+	rank_len, similarity_fn, verbose=True):
+
+	metadata_df = pd.read_csv(metadata_filename, sep=";", quotechar='"')
+	lemmarank_df = pd.read_csv(lemmarank_filename, sep=";", quotechar='"')
+
+	data = {
+		"filename": [],
+		"16th_century_mean_similarity": [],
+		"17th_century_mean_similarity": [],
+		"18th_century_mean_similarity": [],
+		"19th_century_mean_similarity": [],
+		"20th_century_mean_similarity": [],
+	}
+
+	for i, row in lemmarank_df.iterrows():
+		filename = join(data_path, row['filename'])
+		G, word_counter = reader.read_colonia_file(filename)
+
+		if verbose:
+			print("\t--------")
+			print("\t", (i + 1), "/", len(lemmarank_df), ": filename", filename)
+
+		similarities_16th_cent = []
+		similarities_17th_cent = []
+		similarities_18th_cent = []
+		similarities_19th_cent = []
+		similarities_20th_cent = []
+
+		ranked_lemmas = row["rank_0_lemma":("rank_" + str(rank_len - 1) + "_score")]
+
+		# Fills out similarities between this book and other books in other centuries.
+		# WARNING: should exclude the books in the test set!
+		for i2, row2 in lemmarank_df.iterrows():
+			if row2["filename"] == row["filename"] or row2["filename"] in test_filenames:
+				continue
+
+			ranked_lemmas_2 = row2["rank_0_lemma":("rank_" + str(rank_len - 1) + "_score")]
+			similarity = similarity_fn(ranked_lemmas, ranked_lemmas_2)
+
+			if row2["century"] == "16th Century":
+				similarities_16th_cent.append(similarity)
+			elif row2["century"] == "17th Century":
+				similarities_17th_cent.append(similarity)
+			elif row2["century"] == "18th Century":
+				similarities_18th_cent.append(similarity)
+			elif row2["century"] == "19th Century":
+				similarities_19th_cent.append(similarity)
+			elif row2["century"] == "20th Century":
+				similarities_20th_cent.append(similarity)
+
+		data["filename"].append(row['filename'])
+		data["16th_century_mean_similarity"].append(np.mean(similarities_16th_cent))
+		data["17th_century_mean_similarity"].append(np.mean(similarities_17th_cent))
+		data["18th_century_mean_similarity"].append(np.mean(similarities_18th_cent))
+		data["19th_century_mean_similarity"].append(np.mean(similarities_19th_cent))
+		data["20th_century_mean_similarity"].append(np.mean(similarities_20th_cent))
+
+	return data
 
 def generate_similarity_file(metadata_filename, lemmarank_filename, out_data_filename, data_path, \
 	test_filenames, rank_len, similarity_fn, verbose=True):
@@ -130,6 +191,7 @@ def extract_most_freq(G, word_counter, rank_len):
 
 def extract_most_closeness(G, word_counter, rank_len):
 	""" Ranks lemmas by closeness. """
+	return extract_most_freq(G, word_counter, rank_len)
 	ranked = [(k, v) for k, v in nx.closeness_centrality(G).items()]
 	ranked = sorted(ranked, key=lambda tup:tup[1], reverse=True)[:rank_len]
 	return [(key, val) for key, val in ranked]

@@ -66,8 +66,8 @@ def generate_network_metrics_file(in_data_filename, out_data_filename, data_path
 	data = {
 		"number_of_nodes": [],
 		"normalized_number_of_nodes": [],
-		"number_of_edges": [],
-		"normalized_number_of_edges": [],
+		# "number_of_edges": [],
+		# "normalized_number_of_edges": [],
 		"density": [],
 		"assortativity_coefficient": [],
 		"average_shortest_path_length": [],
@@ -95,8 +95,8 @@ def generate_network_metrics_file(in_data_filename, out_data_filename, data_path
 
 		data["number_of_nodes"].append(graph.vcount())
 		data["normalized_number_of_nodes"].append(graph.vcount() / row['words'])
-		data["number_of_edges"].append(graph.ecount())
-		data["normalized_number_of_edges"].append(graph.ecount() / row['words'])
+		# data["number_of_edges"].append(graph.ecount())
+		# data["normalized_number_of_edges"].append(graph.ecount() / row['words'])
 		data["density"].append(graph.density())
 		data["assortativity_coefficient"].append(graph.assortativity_degree(graph.strength()))
 		data["average_shortest_path_length"].append(graph.average_path_length())
@@ -129,7 +129,7 @@ if __name__ == '__main__':
 	tychobrahe_metadata_filename = "data/tychobrahe_metadata.csv"
 	lemmarank_data_filename = "data/lemmaranks.csv"
 	similarity_data_filename = "data/century_similarities.csv"
-	network_metrics_filename = "data/network/network_metrics.csv"
+	network_metrics_filename = "data/network/network_metrics_swa.csv"
 	baseline_data_filename = "data/baseline/baseline_data.csv"
 
 	graph_path = "data/graphs/"
@@ -149,18 +149,14 @@ if __name__ == '__main__':
 	elif flag_1 == "--baseline":
 		rank_len = int(flag_2)
 
-		csc.generate_lemmarank_file(colonia_metadata_filename, lemmarank_data_filename, "data/txt_colonia", rank_len, csc.extract_most_freq)
-		csc.generate_similarity_file(colonia_metadata_filename, lemmarank_data_filename, similarity_data_filename, "data/txt_colonia", \
-			[], rank_len, csc.jaccard_similarity)
-		generate_baseline_file(similarity_data_filename, baseline_data_filename, "data/txt_colonia")
+		csc.generate_lemmarank_file(colonia_metadata_filename, "data/baseline/lemmaranks.csv", "data/txt_colonia", rank_len, csc.extract_most_freq)
+		generate_baseline_file(colonia_metadata_filename, baseline_data_filename, "data/txt_colonia")
 
 	elif flag_1 == "--network":
 		rank_len = int(flag_2)
 
-		csc.generate_lemmarank_file(colonia_metadata_filename, lemmarank_data_filename, "data/txt_colonia", rank_len, csc.extract_most_closeness)
-		csc.generate_similarity_file(colonia_metadata_filename, lemmarank_data_filename, similarity_data_filename, "data/txt_colonia", \
-			[], rank_len, csc.jaccard_similarity)
-		generate_network_metrics_file(similarity_data_filename, network_metrics_filename, "data/txt_colonia", graph_path)
+		csc.generate_lemmarank_file(colonia_metadata_filename, "data/network/lemmaranks_swa.csv", "data/txt_colonia", rank_len, csc.extract_most_closeness)
+		generate_network_metrics_file(colonia_metadata_filename, network_metrics_filename, "data/txt_colonia", graph_path)
 
 	else:
 		print("Incorrect usage detected. Use one of the following patterns:")

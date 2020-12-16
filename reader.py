@@ -9,14 +9,14 @@ from collections import Counter
 from csv import QUOTE_ALL
 
 # no stopword removal
-# STOP_WORD_GROUPS = ["QUOTE"]
-# STOP_WORD_LEMMAS = []
+STOP_WORD_GROUPS = ["QUOTE", "CODE"]
+STOP_WORD_LEMMAS = []
 
 # aggressive stopword removal
-STOP_WORD_GROUPS = ["PRP", "VIRG", "SENT", "PR", "CONJ", "DET", "QUOTE", "PRP+DET", "CARD", \
-	"CODE", "ID", "D-F", "P", "D", ",", "CONJS", "C", "NEG", "PONFP", "P+D", "D-UM-F", \
-	"D-UM", "PRO", "CL", ".", "P+D-F-P", "P+D-F", "PRO$-F", "PRO$"]
-STOP_WORD_LEMMAS = ["<unknown>"]
+# STOP_WORD_GROUPS = ["PRP", "VIRG", "SENT", "PR", "CONJ", "DET", "QUOTE", "PRP+DET", "CARD", \
+# 	"CODE", "ID", "D-F", "P", "D", ",", "CONJS", "C", "NEG", "PONFP", "P+D", "D-UM-F", \
+# 	"D-UM", "PRO", "CL", ".", "P+D-F-P", "P+D-F", "PRO$-F", "PRO$"]
+# STOP_WORD_LEMMAS = ["<unknown>"]
 
 def add_node(graph, word):
 	if not graph.has_node(word):
