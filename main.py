@@ -129,7 +129,7 @@ if __name__ == '__main__':
 	tychobrahe_metadata_filename = "data/tychobrahe_metadata.csv"
 	lemmarank_data_filename = "data/lemmaranks.csv"
 	similarity_data_filename = "data/century_similarities.csv"
-	network_metrics_filename = "data/network/network_metrics_swa.csv"
+	network_metrics_filename = "data/network/network_metrics_punctuated.csv"
 	baseline_data_filename = "data/baseline/baseline_data.csv"
 
 	graph_path = "data/graphs/"
@@ -155,7 +155,7 @@ if __name__ == '__main__':
 	elif flag_1 == "--network":
 		rank_len = int(flag_2)
 
-		csc.generate_lemmarank_file(colonia_metadata_filename, "data/network/lemmaranks_swa.csv", "data/txt_colonia", rank_len, csc.extract_most_closeness)
+		csc.generate_lemmarank_file(colonia_metadata_filename, "data/network/lemmaranks_punctuated.csv", "data/txt_colonia", rank_len, csc.extract_most_closeness)
 		generate_network_metrics_file(colonia_metadata_filename, network_metrics_filename, "data/txt_colonia", graph_path)
 
 	else:

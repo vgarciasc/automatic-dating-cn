@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import networkx as nx
 import numpy as np
 import pandas as pd
@@ -9,14 +11,15 @@ from collections import Counter
 from csv import QUOTE_ALL
 
 # no stopword removal
-STOP_WORD_GROUPS = ["QUOTE", "CODE"]
-STOP_WORD_LEMMAS = []
+# STOP_WORD_GROUPS = ["QUOTE", "CODE"]
+# STOP_WORD_LEMMAS = []
 
 # aggressive stopword removal
-# STOP_WORD_GROUPS = ["PRP", "VIRG", "SENT", "PR", "CONJ", "DET", "QUOTE", "PRP+DET", "CARD", \
-# 	"CODE", "ID", "D-F", "P", "D", ",", "CONJS", "C", "NEG", "PONFP", "P+D", "D-UM-F", \
-# 	"D-UM", "PRO", "CL", ".", "P+D-F-P", "P+D-F", "PRO$-F", "PRO$"]
-# STOP_WORD_LEMMAS = ["<unknown>"]
+STOP_WORD_GROUPS = ["PRP", "VIRG", "SENT", "PR", "CONJ", "DET", "QUOTE", "PRP+DET", \
+	"CODE", "ID", "D-F", "P", "D", ",", "CONJS", "C", "NEG", "PONFP", "P+D", "D-UM-F", \
+	"D-UM", "PRO", "CL", ".", "P+D-F-P", "P+D-F", "PRO$-F", "PRO$"]
+STOP_WORD_LEMMAS = ["<unknown>"]
+SHOULD_PUNCTUATE = True
 
 def add_node(graph, word):
 	if not graph.has_node(word):
@@ -41,6 +44,9 @@ def read_colonia_file(filename):
 		# Other lines indicate sentences, paragraphs, etc. These are ignored
 		parsed = line.strip().split("\t")
 
+		if SHOULD_PUNCTUATE and (parsed == ["</s>"] or parsed == ["<s>"]):
+			last_word = None
+
 		if len(parsed) == 3 \
 			and parsed[1] not in STOP_WORD_GROUPS \
 			and parsed[2] not in STOP_WORD_LEMMAS:
@@ -48,12 +54,13 @@ def read_colonia_file(filename):
 			lemma = parsed[2].lower()
 			if parsed[2] == "<unknown>":
 				lemma = parsed[0].lower()
-			
 			word = lemma
 			word_counter[word] += 1
 
 			add_node(G, word)
-			add_edge(G, last_word, word)
+
+			if last_word is not None:
+				add_edge(G, last_word, word)
 			
 			last_word = word
 
@@ -89,4 +96,5 @@ def read_tychobrahe_file(filename):
 	return G, word_counter
 
 if __name__ == '__main__':
-	read_tychobrahe_file("data/tycho_brahe/a_001_pos.txt")
+	G, word_counter = read_colonia_file("data/test.txt")
+	nx.write_graphml(G, "data/test.graphml")

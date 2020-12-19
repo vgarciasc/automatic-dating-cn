@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key attr.name="weight" attr.type="int" for="edge" id="d0"/>
+<graph edgedefault="directed"><node id="livro"/>
+<node id="dois"/>
+<node id="preceder"/>
+<node id="não"/>
+<node id="ser"/>
+<node id="próprio"/>
+<node id="lavra"/>
+<node id="escritor"/>
+<node id="geralmente"/>
+<node id="atribuir"/>
+<node id="história"/>
+<node id="verdadeiro"/>
+<node id="narração"/>
+<node id="vir"/>
+<node id="pessoa"/>
+<node id="receber"/>
+<node id="diretamente"/>
+<node id="circunstância"/>
+<node id="ignorar"/>
+<node id="confidência"/>
+<node id="principal"/>
+<node id="ator"/>
+<node id="de"/>
+<node id="drama"/>
+<node id="curioso"/>
+<edge source="livro" target="dois">
+  <data key="d0">1</data>
+</edge>
+<edge source="dois" target="preceder">
+  <data key="d0">1</data>
+</edge>
+<edge source="preceder" target="não">
+  <data key="d0">1</data>
+</edge>
+<edge source="não" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="próprio">
+  <data key="d0">1</data>
+</edge>
+<edge source="ser" target="verdadeiro">
+  <data key="d0">1</data>
+</edge>
+<edge source="próprio" target="lavra">
+  <data key="d0">1</data>
+</edge>
+<edge source="lavra" target="escritor">
+  <data key="d0">1</data>
+</edge>
+<edge source="escritor" target="geralmente">
+  <data key="d0">1</data>
+</edge>
+<edge source="geralmente" target="atribuir">
+  <data key="d0">1</data>
+</edge>
+<edge source="atribuir" target="história">
+  <data key="d0">1</data>
+</edge>
+<edge source="história" target="ser">
+  <data key="d0">1</data>
+</edge>
+<edge source="verdadeiro" target="narração">
+  <data key="d0">1</data>
+</edge>
+<edge source="narração" target="vir">
+  <data key="d0">1</data>
+</edge>
+<edge source="vir" target="pessoa">
+  <data key="d0">1</data>
+</edge>
+<edge source="pessoa" target="receber">
+  <data key="d0">1</data>
+</edge>
+<edge source="receber" target="diretamente">
+  <data key="d0">1</data>
+</edge>
+<edge source="diretamente" target="circunstância">
+  <data key="d0">1</data>
+</edge>
+<edge source="circunstância" target="ignorar">
+  <data key="d0">1</data>
+</edge>
+<edge source="ignorar" target="confidência">
+  <data key="d0">1</data>
+</edge>
+<edge source="confidência" target="principal">
+  <data key="d0">1</data>
+</edge>
+<edge source="principal" target="ator">
+  <data key="d0">1</data>
+</edge>
+<edge source="ator" target="de">
+  <data key="d0">1</data>
+</edge>
+<edge source="de" target="drama">
+  <data key="d0">1</data>
+</edge>
+<edge source="drama" target="curioso">
+  <data key="d0">1</data>
+</edge>
+</graph></graphml>

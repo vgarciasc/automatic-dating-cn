@@ -1,0 +1,60 @@
+<text	id="alencar1875">
+<s>
+Este	DET	este
+livro	NOM	livro
+,	VIRG	,
+como	CONJ	como
+os	DET	o
+dois	NOM	dois
+que	PR	que
+o	P	o
+precederam	V	preceder
+,	VIRG	,
+não	ADV	não
+são	V	ser
+da	PRP+DET	de
+própria	ADJ	próprio
+lavra	NOM	lavra
+do	PRP+DET	de
+escritor	NOM	escritor
+,	VIRG	,
+a	DET	a
+quem	PR	quem
+geralmente	ADV	geralmente
+os	P	o
+atribuem	V	atribuir
+.	SENT	.
+</s>
+<s>
+A	DET	a
+história	NOM	história
+é	V	ser
+verdadeira	ADJ	verdadeiro
+;	SENT	;
+e	CONJ	e
+a	DET	a
+narração	NOM	narração
+vem	V	vir
+de	PRP	de
+pessoa	NOM	pessoa
+que	PR	que
+recebeu	V	receber
+diretamente	ADV	diretamente
+,	VIRG	,
+e	CONJ	e
+em	PRP	em
+circunstâncias	NOM	circunstância
+que	PR	que
+ignoro	V	ignorar
+,	VIRG	,
+a	DET	a
+confidência	NOM	confidência
+dos	PRP+DET	de
+principais	ADJ	principal
+atores	NOM	ator
+deste	PRP+P	de
+drama	NOM	drama
+curioso	ADJ	curioso
+.	SENT	.
+</s>
+</text>
