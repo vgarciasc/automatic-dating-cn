@@ -10,17 +10,6 @@ from os.path import join
 from collections import Counter
 from csv import QUOTE_ALL
 
-# no stopword removal
-# STOP_WORD_GROUPS = ["QUOTE", "CODE"]
-# STOP_WORD_LEMMAS = []
-
-# aggressive stopword removal
-STOP_WORD_GROUPS = ["PRP", "VIRG", "SENT", "PR", "CONJ", "DET", "QUOTE", "PRP+DET", \
-	"CODE", "ID", "D-F", "P", "D", ",", "CONJS", "C", "NEG", "PONFP", "P+D", "D-UM-F", \
-	"D-UM", "PRO", "CL", ".", "P+D-F-P", "P+D-F", "PRO$-F", "PRO$"]
-STOP_WORD_LEMMAS = ["<unknown>"]
-SHOULD_PUNCTUATE = True
-
 def add_node(graph, word):
 	if not graph.has_node(word):
 		graph.add_node(word)
@@ -32,7 +21,16 @@ def add_edge(graph, last_word, word):
 		else:
 			graph.add_edge(last_word, word, weight=1)
 
-def read_colonia_file(filename):
+def read_colonia_file(filename, should_remove_stopwords=True, should_separate_sentences=True):
+	if should_remove_stopwords:
+		sw_groups = ["PRP", "VIRG", "SENT", "PR", "CONJ", "DET", "QUOTE", "PRP+DET", \
+			"CODE", "ID", "D-F", "P", "D", ",", "CONJSUB", "C", "NEG", "PONFP", "P+D", "D-UM-F", \
+			"D-UM", "PRO", "CL", ".", "P+D-F-P", "P+D-F", "PRO$-F", "PRO$"]
+		sw_lemmas = ["<unknown>"]
+	else:
+		sw_groups = ["QUOTE", "SENT", "VIRG", "CODE"]
+		sw_lemmas = []
+
 	file = open(filename, 'r', encoding="utf-8") 
 
 	G = nx.DiGraph()
@@ -44,12 +42,12 @@ def read_colonia_file(filename):
 		# Other lines indicate sentences, paragraphs, etc. These are ignored
 		parsed = line.strip().split("\t")
 
-		if SHOULD_PUNCTUATE and (parsed == ["</s>"] or parsed == ["<s>"]):
+		if should_separate_sentences and (parsed == ["</s>"] or parsed == ["<s>"]):
 			last_word = None
 
 		if len(parsed) == 3 \
-			and parsed[1] not in STOP_WORD_GROUPS \
-			and parsed[2] not in STOP_WORD_LEMMAS:
+			and parsed[1] not in sw_groups \
+			and parsed[2] not in sw_lemmas:
 
 			lemma = parsed[2].lower()
 			if parsed[2] == "<unknown>":
@@ -64,6 +62,9 @@ def read_colonia_file(filename):
 			
 			last_word = word
 
+	for u, v, d in G.edges(data=True):
+		d['weight'] = 1 / d['weight']
+	
 	return G, word_counter
 
 def read_tychobrahe_file(filename):
@@ -96,5 +97,5 @@ def read_tychobrahe_file(filename):
 	return G, word_counter
 
 if __name__ == '__main__':
-	G, word_counter = read_colonia_file("data/test.txt")
-	nx.write_graphml(G, "data/test.graphml")
+	G, word_counter = read_colonia_file("data/test2.txt")
+	nx.write_gml(G, "data/test2.gml")

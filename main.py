@@ -45,7 +45,7 @@ def generate_baseline_file(in_data_filename, out_data_filename, data_path, verbo
 		data_df[key] = val
 	data_df.to_csv(out_data_filename, sep=';', quoting=QUOTE_ALL)
 
-def generate_graphs_file(in_data_filename, data_path, graph_path, read_fn=r.read_colonia_file, verbose=True):
+def generate_graphs_file(in_data_filename, data_path, graph_path, model_str, read_fn=r.read_colonia_file, verbose=True):
 	data_df = pd.read_csv(in_data_filename, sep=";", quotechar='"')
 
 	if verbose:
@@ -53,7 +53,13 @@ def generate_graphs_file(in_data_filename, data_path, graph_path, read_fn=r.read
 
 	for index, row in data_df.iterrows():
 		filename = join(data_path, row['filename'])
-		G, word_counter = read_fn(filename)
+
+		if model_str == "mod1":
+			G, word_counter = read_fn(filename, should_remove_stopwords=False, should_separate_sentences=False)
+		elif model_str == "mod2":
+			G, word_counter = read_fn(filename, should_remove_stopwords=True, should_separate_sentences=False)
+		elif model_str == "mod3":
+			G, word_counter = read_fn(filename, should_remove_stopwords=True, should_separate_sentences=True)
 
 		if verbose:
 			print("\t--------")
@@ -78,6 +84,8 @@ def generate_network_metrics_file(in_data_filename, out_data_filename, data_path
 		"max_clustering": [],
 		"mean_betweenness_centrality": [],
 		"max_betweenness_centrality": [],
+		"size_gcc": [],
+		"strongly_connected_components": []
 	}
 
 	if verbose:
@@ -93,24 +101,34 @@ def generate_network_metrics_file(in_data_filename, out_data_filename, data_path
 			print("\t--------")
 			print("\t", (index + 1), "/", len(metadata_df), ": filename", filename)
 
+		components = graph.components()
+		gcc = graph.subgraph(components[np.argmax([len(c) for c in components])])
+
 		data["number_of_nodes"].append(graph.vcount())
 		data["normalized_number_of_nodes"].append(graph.vcount() / row['words'])
 		# data["number_of_edges"].append(graph.ecount())
 		# data["normalized_number_of_edges"].append(graph.ecount() / row['words'])
 		data["density"].append(graph.density())
 		data["assortativity_coefficient"].append(graph.assortativity_degree(graph.strength()))
-		data["average_shortest_path_length"].append(graph.average_path_length())
-		data["diameter"].append(graph.diameter())
-		data["transitivity"].append(graph.transitivity_undirected())
-		data["mean_degree"].append(np.mean([d for d in graph.strength()]))
 
-		clustering = graph.transitivity_local_undirected(weights = graph.es["weight"])
+		# average_shortest_path_length = total / (gcc.vcount() * (gcc.vcount() - 1))
+		average_shortest_path_length = gcc.average_path_length()
+		data["average_shortest_path_length"].append(average_shortest_path_length)
+
+		data["diameter"].append(graph.diameter(weights = "weight"))
+		data["transitivity"].append(graph.transitivity_undirected(mode = "zero"))
+		data["mean_degree"].append(np.mean(graph.strength(weights = "weight")))
+
+		clustering = gcc.transitivity_local_undirected(weights = "weight")
 		data["mean_clustering"].append(np.mean(clustering))
 		data["max_clustering"].append(np.max(clustering))
 
-		betweenness_centrality = graph.betweenness(weights = graph.es["weight"])
-		data["mean_betweenness_centrality"].append(np.mean(betweenness_centrality))
-		data["max_betweenness_centrality"].append(np.max(betweenness_centrality))
+		# betweenness_centrality = graph.betweenness(weights = "weight")
+		# data["mean_betweenness_centrality"].append(np.mean(betweenness_centrality))
+		# data["max_betweenness_centrality"].append(np.max(betweenness_centrality))
+
+		data["size_gcc"].append(gcc.vcount() / graph.vcount())
+		data["strongly_connected_components"].append(len(components))
 		
 		end = datetime.datetime.now()
 		if verbose:
@@ -129,34 +147,65 @@ if __name__ == '__main__':
 	tychobrahe_metadata_filename = "data/tychobrahe_metadata.csv"
 	lemmarank_data_filename = "data/lemmaranks.csv"
 	similarity_data_filename = "data/century_similarities.csv"
-	network_metrics_filename = "data/network/network_metrics_punctuated.csv"
+	network_metrics_filename = "data/network/network_metrics.csv"
 	baseline_data_filename = "data/baseline/baseline_data.csv"
 
 	graph_path = "data/graphs/"
+	data_path = "data/txt_colonia"
 
 	flag_1 = None
 	flag_2 = None
+	flag_3 = None
+	flag_4 = None
 
 	if len(sys.argv) > 1:
 		flag_1 = sys.argv[1]
 	if len(sys.argv) > 2:
 		flag_2 = sys.argv[2]
+	if len(sys.argv) > 3:
+		flag_3 = sys.argv[3]
+	if len(sys.argv) > 4:
+		flag_4 = sys.argv[4]
 
 	if flag_1 == "--graphs":
-		generate_graphs_file(tychobrahe_metadata_filename, "data/txt_tychobrahe", graph_path, read_fn = r.read_tychobrahe_file)
-		generate_graphs_file(colonia_metadata_filename, "data/txt_colonia", graph_path, read_fn = r.read_colonia_file)
+		model_str = flag_2
+		if model_str == "mod1":
+			graph_path += "mod1/"
+		elif model_str == "mod2":
+			graph_path += "mod2/"
+		elif model_str == "mod3":
+			graph_path += "mod3/"
+		else:
+			print("Wrong model received. Possibilities: mod1, mod2, mod3")
+			sys.exit(1)
+
+		# generate_graphs_file(tychobrahe_metadata_filename, "data/txt_tychobrahe", graph_path, model_str, read_fn = r.read_tychobrahe_file)
+		generate_graphs_file(colonia_metadata_filename, data_path, graph_path, model_str, read_fn = r.read_colonia_file)
 
 	elif flag_1 == "--baseline":
 		rank_len = int(flag_2)
 
-		csc.generate_lemmarank_file(colonia_metadata_filename, "data/baseline/lemmaranks.csv", "data/txt_colonia", rank_len, csc.extract_most_freq)
-		generate_baseline_file(colonia_metadata_filename, baseline_data_filename, "data/txt_colonia")
+		csc.generate_lemmarank_file(colonia_metadata_filename, "data/baseline/lemmaranks.csv", data_path, rank_len, csc.extract_most_freq)
+		generate_baseline_file(colonia_metadata_filename, baseline_data_filename, data_path)
 
 	elif flag_1 == "--network":
 		rank_len = int(flag_2)
 
-		csc.generate_lemmarank_file(colonia_metadata_filename, "data/network/lemmaranks_punctuated.csv", "data/txt_colonia", rank_len, csc.extract_most_closeness)
-		generate_network_metrics_file(colonia_metadata_filename, network_metrics_filename, "data/txt_colonia", graph_path)
+		model_str = flag_3
+		if model_str == "mod1":
+			graph_path += "mod1/"
+		elif model_str == "mod2":
+			graph_path += "mod2/"
+		elif model_str == "mod3":
+			graph_path += "mod3/"
+		else:
+			print("Wrong model received. Possibilities: mod1, mod2, mod3")
+			sys.exit(1)
+
+		network_metrics_filename = network_metrics_filename.split(".")[0] + "_" + model_str + ".csv"
+
+		# csc.generate_lemmarank_file(colonia_metadata_filename, "data/network/lemmaranks.csv", data_path, rank_len, csc.extract_most_closeness)
+		generate_network_metrics_file(colonia_metadata_filename, network_metrics_filename, data_path, graph_path)
 
 	else:
 		print("Incorrect usage detected. Use one of the following patterns:")
