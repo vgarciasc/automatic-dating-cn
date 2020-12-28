@@ -42,8 +42,9 @@ def read_colonia_file(filename, should_remove_stopwords=True, should_separate_se
 		# Other lines indicate sentences, paragraphs, etc. These are ignored
 		parsed = line.strip().split("\t")
 
-		if should_separate_sentences and (parsed == ["</s>"] or parsed == ["<s>"]):
-			last_word = None
+		if should_separate_sentences:
+			if parsed == ["</s>"] or parsed == ["<s>"] or (len(parsed) > 1 and parsed[1] == "SENT"):
+				last_word = None
 
 		if len(parsed) == 3 \
 			and parsed[1] not in sw_groups \
@@ -62,8 +63,8 @@ def read_colonia_file(filename, should_remove_stopwords=True, should_separate_se
 			
 			last_word = word
 
-	for u, v, d in G.edges(data=True):
-		d['weight'] = 1 / d['weight']
+	# for u, v, d in G.edges(data=True):
+	# 	d['weight'] = 1 / d['weight']
 	
 	return G, word_counter
 

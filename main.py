@@ -109,19 +109,19 @@ def generate_network_metrics_file(in_data_filename, out_data_filename, data_path
 		# data["number_of_edges"].append(graph.ecount())
 		# data["normalized_number_of_edges"].append(graph.ecount() / row['words'])
 		data["density"].append(graph.density())
-		data["assortativity_coefficient"].append(graph.assortativity_degree(graph.strength()))
+		data["assortativity_coefficient"].append(graph.assortativity_degree([1/s if s != 0 else 0 for s in graph.strength()]))
 
 		# average_shortest_path_length = total / (gcc.vcount() * (gcc.vcount() - 1))
 		average_shortest_path_length = gcc.average_path_length()
 		data["average_shortest_path_length"].append(average_shortest_path_length)
 
-		data["diameter"].append(graph.diameter(weights = "weight"))
+		data["diameter"].append(graph.diameter(weights=[1/w for w in graph.es["weight"]]))
 		data["transitivity"].append(graph.transitivity_undirected(mode = "zero"))
 		data["mean_degree"].append(np.mean(graph.strength(weights = "weight")))
 
-		clustering = gcc.transitivity_local_undirected(weights = "weight")
-		data["mean_clustering"].append(np.mean(clustering))
-		data["max_clustering"].append(np.max(clustering))
+		# clustering = gcc.transitivity_local_undirected(mode = "zero")
+		# data["mean_clustering"].append(np.mean(clustering))
+		# data["max_clustering"].append(np.max(clustering))
 
 		# betweenness_centrality = graph.betweenness(weights = "weight")
 		# data["mean_betweenness_centrality"].append(np.mean(betweenness_centrality))
